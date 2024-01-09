@@ -6,13 +6,14 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public Rigidbody rig;
+    public bool inDialogue;
 
-    public int anxietyPoints;
-
+    [Header("Player Controls")]
     public KeyCode interactionKey;
     public float interactRange;
 
-    bool inDialogue;
+    [Header("Player Stats")]
+    public int anxietyPoints;
 
     void Start()
     {
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
+        // basic movement system for the player
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
@@ -49,12 +51,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void Interact()
-    {
-        Invoke("TryInteract", 0.7f);
-    }
-
-    void TryInteract()
-    {
+    {        
         Ray ray = new Ray(transform.position + transform.forward, transform.forward);
         RaycastHit[] hits = Physics.SphereCastAll(ray, interactRange, 1 << 8);
 
@@ -62,6 +59,8 @@ public class PlayerController : MonoBehaviour
         {
             //grab the NPCs dialogue function and run it
             hit.collider.GetComponent<NPCBehaviour>()?.Dialogue();
+
+            // if interacting with item we want to grab the item
         }
     }
 

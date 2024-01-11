@@ -5,14 +5,27 @@ using System.Linq;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed;
-    public Rigidbody rig;
+    public float moveSpeed = 1;
+    public float rotSpeed = 20f;
+
+    bool isWalking;
+
+    private Rigidbody rig;
+    Vector3 movement;
+    Quaternion rotation = Quaternion.identity;
+
     public bool inDialogue;
+
+    public Animator anim;
 
     [Header("Player Controls")]
     public KeyCode interactionKey;
     public float interactRange;
     public int interactLayer;
+
+    public KeyCode animCheer;
+    public KeyCode animCheck;
+    public KeyCode animHappy;
 
     [Header("Player Stats")]
     public int anxietyPoints;
@@ -30,14 +43,17 @@ public class PlayerController : MonoBehaviour
         interactLayer = LayerMask.NameToLayer("Interactables");
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (inDialogue == false)
         {
             Move();
         }
+    }
 
-        Animate();
+
+    void Update()
+    {
 
         if(Input.GetKeyDown(interactionKey))
         {
@@ -59,16 +75,32 @@ public class PlayerController : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
-        Vector3 dir = transform.right * x + transform.forward * z;
-        dir *= moveSpeed;
-        dir.y = rig.velocity.y;
+        bool xInputMade = !Mathf.Approximately(x, 0f); //sets true if horizontal input is approx 0
+        bool zInputMade = !Mathf.Approximately(z, 0f);
+        isWalking = xInputMade || zInputMade;
 
-        rig.velocity = dir;
+        movement.Set(x, 0f, z);
+        movement.Normalize();
+
+        Vector3 desiredForward = Vector3.RotateTowards(transform.forward, movement, rotSpeed * Time.deltaTime, 0f);
+        rotation = Quaternion.LookRotation(desiredForward);
+
+        rig.MovePosition(rig.position + movement * moveSpeed * Time.fixedDeltaTime);
+        rig.MoveRotation(rotation);
+
+        Animate();
     }
 
     void Animate()
     {
-        //Animation code goes here if any
+        if (isWalking)
+        {
+            anim.SetBool("isWalking", true);
+        }
+        else
+        {
+            anim.SetBool("isWalking", false);
+        }
     }
 
     void Interact()

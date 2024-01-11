@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638404381758268322
-    m_Hash: 847900212
+      ticks: 638405361872352793
+    m_Hash: 3792373384
   m_LockFileStatus:
     m_FilePath: D:/GameDev/VibeCheck/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638404381935824673
-    m_Hash: 1884248708
+      ticks: 638405361872442815
+    m_Hash: 3368387064
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

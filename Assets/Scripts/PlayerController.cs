@@ -41,6 +41,8 @@ public class PlayerController : MonoBehaviour
         player = this.gameObject;
 
         interactLayer = LayerMask.NameToLayer("Interactables");
+
+        inDialogue = false;
     }
 
     void FixedUpdate()
@@ -104,13 +106,15 @@ public class PlayerController : MonoBehaviour
     }
 
     void Interact()
-    {        
+    {
+        Debug.Log("Try Interact");
         Ray ray = new Ray(transform.position + transform.forward, transform.forward);
         RaycastHit[] hits = Physics.SphereCastAll(ray, interactRange, 1 << 8);
 
         foreach (RaycastHit hit in hits.Where(hit => hit.transform.gameObject.layer == interactLayer))
         {
             //grab the NPCs dialogue function and run it
+            Debug.Log("Try Dialogue");
             hit.collider.GetComponent<NPCBehaviour>()?.Dialogue(player);
 
             // if interacting with item we want to grab the item

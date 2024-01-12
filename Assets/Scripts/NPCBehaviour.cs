@@ -67,6 +67,7 @@ public class NPCBehaviour : MonoBehaviour
 
     public void Dialogue(GameObject plr)
     {
+        transform.LookAt(plr.transform);
         pcScript = plr.GetComponent<PlayerController>();
         dialogueOption = 0;
         //start the NPC dialogue

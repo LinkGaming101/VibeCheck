@@ -75,3 +75,16 @@ crashlytics-build.properties
 *.dag
 *.outputdata
 *.payloads
+Library/ArtifactDB
+Library/Bee/fullprofile.json
+Library/Bee/tundra.digestcache
+Library/Bee/tundra.log.json
+Library/ilpp.pid
+Library/SceneVisibilityState.asset
+Library/Search/transactions.db
+Library/SourceAssetDB
+Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+Logs/AssetImportWorker0.log
+Logs/AssetImportWorker1.log
+Logs/shadercompiler-AssetImportWorker0.log
+Logs/shadercompiler-UnityShaderCompiler.exe0.log

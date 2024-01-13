@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
     public string playerName;
     public GameObject player;
 
+    public List<string> playerDialogue = new List<string>();
     void Start()
     {
         rig = GetComponent<Rigidbody>();

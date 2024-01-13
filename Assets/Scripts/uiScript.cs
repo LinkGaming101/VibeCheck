@@ -7,7 +7,6 @@ using TMPro;
 
 public class uiScript : MonoBehaviour
 {
-
     [SerializeField]
     string nextScene;
 
@@ -15,8 +14,6 @@ public class uiScript : MonoBehaviour
 
     public GameObject panel;
     public GameObject menuBox;
-
-    public GameObject butttonPause;
 
     [Header("Volume Slider")]
     public Slider volumeBGM;
@@ -26,11 +23,14 @@ public class uiScript : MonoBehaviour
 
     public TMP_Dropdown ddResolution;
 
+    public KeyCode showPause;
+
     // Start is called before the first frame update
     void Start()
     {
         if (volumeBGM != null && volumeVibeCheck != null)
-        { onBGMChange();
+        { 
+            onBGMChange();
             onVCChange();
         }
     }
@@ -38,7 +38,10 @@ public class uiScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(showPause))
+        {
+            resume();
+        }
     }
 
     public void startGame()
@@ -92,10 +95,7 @@ public class uiScript : MonoBehaviour
         {
             panel.SetActive(true);
             menuBox.SetActive(true);
-            if (SceneManager.GetActiveScene().buildIndex != 0)
-            {
-                butttonPause.SetActive(false);
-            }
+
             Time.timeScale = 0;
             resumeGame = false;
         }
@@ -104,10 +104,7 @@ public class uiScript : MonoBehaviour
         {
             panel.SetActive(false);
             menuBox.SetActive(false);
-            if (SceneManager.GetActiveScene().buildIndex != 0)
-            {
-                butttonPause.SetActive(false);
-            }
+
             Time.timeScale = 1;
             resumeGame = true;
         }

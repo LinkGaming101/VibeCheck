@@ -360,7 +360,6 @@
         352,
         353,
         354,
-<<<<<<< Updated upstream
         355,
         356,
         357,
@@ -415,9 +414,6 @@
         406,
         407,
         408
-=======
-        355
->>>>>>> Stashed changes
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -936,7 +932,6 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         216,
         217,
         224,
@@ -953,52 +948,6 @@
         289,
         302,
         303,
-=======
-        198,
-        205,
-        206,
-        207,
-        214,
-        221,
-        228,
-        241,
-        248,
-        249,
-        262,
-        263,
-        276,
-        283,
-        284,
-        285,
-        286,
-        287,
-        288,
-        289,
-        290,
-        291,
-        292,
-        293,
-        296,
-        297,
-        298,
-        299,
-        300,
-        301,
-        302,
-        303,
-        304,
-        305,
-        306,
-        307,
-        308,
-        309,
-        310,
-        311,
-        312,
-        313,
-        314,
-        315,
->>>>>>> Stashed changes
         316,
         323,
         324,
@@ -1028,7 +977,6 @@
         350,
         351,
         352,
-<<<<<<< Updated upstream
         353,
         354,
         355,
@@ -1083,9 +1031,6 @@
         404,
         405,
         406
-=======
-        353
->>>>>>> Stashed changes
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 6
@@ -4514,7 +4459,6 @@
         117,
         118,
         119
-<<<<<<< Updated upstream
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
@@ -5070,12 +5014,10 @@
         118,
         125,
         126
-=======
->>>>>>> Stashed changes
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.UnityAdditionalFile.txt",
@@ -5599,64 +5541,40 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 266117,
-=======
-      "PayloadOffset": 189283,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 134
-=======
-      "DebugActionIndex": 121
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 266237,
-=======
-      "PayloadOffset": 189403,
->>>>>>> Stashed changes
       "PayloadLength": 30040,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 135
-=======
-      "DebugActionIndex": 122
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp2",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 296378,
-=======
-      "PayloadOffset": 219544,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 136
-=======
-      "DebugActionIndex": 123
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.dll (+2 others)",
@@ -5906,7 +5824,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         134,
         135,
         136,
@@ -5915,16 +5832,6 @@
       "ToUseDependencies": [
         134,
         136
-=======
-        121,
-        122,
-        123,
-        127
-      ],
-      "ToUseDependencies": [
-        121,
-        123
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.rsp"
@@ -5937,50 +5844,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 137
-=======
-      "DebugActionIndex": 124
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_4C98D3F7040CD4F5.mvfrm",
-      "DisplayName": "MovedFromExtractor UnityEditor.UI.ref.dll_4C98D3F7040CD4F5",
-      "Action": "\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.UI.ref.dll_4C98D3F7040CD4F5.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\UnityEditor.UI.ref.dll\"",
-      "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
-        "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_4C98D3F7040CD4F5.mvfrm"
-      ],
-      "ToBuildDependencies": [
-        116
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 125
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.EditorCoroutines.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 296521,
-=======
-      "PayloadOffset": 219687,
->>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 138
-=======
-      "DebugActionIndex": 126
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.dll.mvfrm",
@@ -6186,82 +6063,50 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         138
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 139
-=======
-        126
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 127
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 304948,
-=======
-      "PayloadOffset": 228114,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 140
-=======
-      "DebugActionIndex": 128
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 305080,
-=======
-      "PayloadOffset": 228246,
->>>>>>> Stashed changes
       "PayloadLength": 32813,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 141
-=======
-      "DebugActionIndex": 129
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp2",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 338006,
-=======
-      "PayloadOffset": 261172,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 142
-=======
-      "DebugActionIndex": 130
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll (+2 others)",
@@ -6540,7 +6385,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         140,
         141,
         142,
@@ -6549,16 +6393,6 @@
       "ToUseDependencies": [
         140,
         142
-=======
-        128,
-        129,
-        130,
-        133
-      ],
-      "ToUseDependencies": [
-        128,
-        130
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp"
@@ -6571,32 +6405,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 143
-=======
-      "DebugActionIndex": 131
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 338161,
-=======
-      "PayloadOffset": 261327,
->>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 144
-=======
-      "DebugActionIndex": 132
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm",
@@ -6802,7 +6624,6 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         144
       ],
       "AllowUnexpectedOutput": true,
@@ -7616,76 +7437,45 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 151
-=======
-        132
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 133
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Rider.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 415427,
-=======
-      "PayloadOffset": 269731,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 152
-=======
-      "DebugActionIndex": 134
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp",
       "DisplayName": "Writing Unity.Rider.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 415536,
-=======
-      "PayloadOffset": 269840,
->>>>>>> Stashed changes
       "PayloadLength": 32432,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 153
-=======
-      "DebugActionIndex": 135
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp2",
       "DisplayName": "Writing Unity.Rider.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 448058,
-=======
-      "PayloadOffset": 302362,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 154
-=======
-      "DebugActionIndex": 136
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll (+2 others)",
@@ -7963,7 +7753,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         152,
         153,
         154,
@@ -7972,16 +7761,6 @@
       "ToUseDependencies": [
         152,
         154
-=======
-        134,
-        135,
-        136,
-        139
-      ],
-      "ToUseDependencies": [
-        134,
-        136
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp"
@@ -7994,32 +7773,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 155
-=======
-      "DebugActionIndex": 137
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Rider.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 448190,
-=======
-      "PayloadOffset": 302494,
->>>>>>> Stashed changes
       "PayloadLength": 7757,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 156
-=======
-      "DebugActionIndex": 138
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll.mvfrm",
@@ -8213,82 +7980,50 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         156
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 157
-=======
-        138
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 139
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Settings.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 456059,
-=======
-      "PayloadOffset": 310363,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 158
-=======
-      "DebugActionIndex": 140
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp",
       "DisplayName": "Writing Unity.Settings.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 456171,
-=======
-      "PayloadOffset": 310475,
->>>>>>> Stashed changes
       "PayloadLength": 30756,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 159
-=======
-      "DebugActionIndex": 141
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp2",
       "DisplayName": "Writing Unity.Settings.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 487020,
-=======
-      "PayloadOffset": 341324,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 160
-=======
-      "DebugActionIndex": 142
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.dll (+2 others)",
@@ -8547,7 +8282,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         158,
         159,
         160,
@@ -8556,16 +8290,6 @@
       "ToUseDependencies": [
         158,
         160
-=======
-        140,
-        141,
-        142,
-        145
-      ],
-      "ToUseDependencies": [
-        140,
-        142
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.rsp"
@@ -8578,32 +8302,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 161
-=======
-      "DebugActionIndex": 143
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Settings.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 487155,
-=======
-      "PayloadOffset": 341459,
->>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 162
-=======
-      "DebugActionIndex": 144
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.dll.mvfrm",
@@ -8809,82 +8521,50 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         162
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 163
-=======
-        144
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 145
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.SysrootPackage.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 495568,
-=======
-      "PayloadOffset": 349872,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 164
-=======
-      "DebugActionIndex": 146
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.rsp",
       "DisplayName": "Writing Unity.SysrootPackage.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 495686,
-=======
-      "PayloadOffset": 349990,
->>>>>>> Stashed changes
       "PayloadLength": 29890,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 165
-=======
-      "DebugActionIndex": 147
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.rsp2",
       "DisplayName": "Writing Unity.SysrootPackage.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 525675,
-=======
-      "PayloadOffset": 379979,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 166
-=======
-      "DebugActionIndex": 148
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.dll (+2 others)",
@@ -9133,7 +8813,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         164,
         165,
         166,
@@ -9142,16 +8821,6 @@
       "ToUseDependencies": [
         164,
         166
-=======
-        146,
-        147,
-        148,
-        151
-      ],
-      "ToUseDependencies": [
-        146,
-        148
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.rsp"
@@ -9164,32 +8833,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 167
-=======
-      "DebugActionIndex": 149
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.SysrootPackage.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 525816,
-=======
-      "PayloadOffset": 380120,
->>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 168
-=======
-      "DebugActionIndex": 150
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.dll.mvfrm",
@@ -9395,82 +9052,50 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         168
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 169
-=======
-        150
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 151
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 534253,
-=======
-      "PayloadOffset": 388557,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 170
-=======
-      "DebugActionIndex": 152
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 534395,
-=======
-      "PayloadOffset": 388699,
->>>>>>> Stashed changes
       "PayloadLength": 31517,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 171
-=======
-      "DebugActionIndex": 153
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 566035,
-=======
-      "PayloadOffset": 420339,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 172
-=======
-      "DebugActionIndex": 154
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll (+2 others)",
@@ -9731,7 +9356,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         170,
         171,
         172,
@@ -9740,16 +9364,6 @@
       "ToUseDependencies": [
         170,
         172
-=======
-        152,
-        153,
-        154,
-        157
-      ],
-      "ToUseDependencies": [
-        152,
-        154
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp"
@@ -9762,32 +9376,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 173
-=======
-      "DebugActionIndex": 155
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 566200,
-=======
-      "PayloadOffset": 420504,
->>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 174
-=======
-      "DebugActionIndex": 156
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm",
@@ -9993,82 +9595,50 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         174
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 175
-=======
-        156
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 157
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 574647,
-=======
-      "PayloadOffset": 428951,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 176
-=======
-      "DebugActionIndex": 158
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 574799,
-=======
-      "PayloadOffset": 429103,
->>>>>>> Stashed changes
       "PayloadLength": 30290,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 177
-=======
-      "DebugActionIndex": 159
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 605222,
-=======
-      "PayloadOffset": 459526,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 178
-=======
-      "DebugActionIndex": 160
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll (+2 others)",
@@ -10318,7 +9888,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         176,
         177,
         178,
@@ -10327,16 +9896,6 @@
       "ToUseDependencies": [
         176,
         178
-=======
-        158,
-        159,
-        160,
-        163
-      ],
-      "ToUseDependencies": [
-        158,
-        160
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp"
@@ -10349,32 +9908,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 179
-=======
-      "DebugActionIndex": 161
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 605397,
-=======
-      "PayloadOffset": 459701,
->>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 180
-=======
-      "DebugActionIndex": 162
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm",
@@ -10580,82 +10127,50 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         180
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 181
-=======
-        162
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 163
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 613800,
-=======
-      "PayloadOffset": 468104,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 182
-=======
-      "DebugActionIndex": 164
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 613908,
-=======
-      "PayloadOffset": 468212,
->>>>>>> Stashed changes
       "PayloadLength": 33683,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 183
-=======
-      "DebugActionIndex": 165
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 647680,
-=======
-      "PayloadOffset": 501984,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 184
-=======
-      "DebugActionIndex": 166
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll (+2 others)",
@@ -10951,7 +10466,6 @@
       "ToBuildDependencies": [
         96,
         116,
-<<<<<<< Updated upstream
         182,
         183,
         184,
@@ -10960,16 +10474,6 @@
       "ToUseDependencies": [
         182,
         184
-=======
-        164,
-        165,
-        166,
-        169
-      ],
-      "ToUseDependencies": [
-        164,
-        166
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp"
@@ -10982,32 +10486,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 185
-=======
-      "DebugActionIndex": 167
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 647811,
-=======
-      "PayloadOffset": 502115,
->>>>>>> Stashed changes
       "PayloadLength": 8045,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 186
-=======
-      "DebugActionIndex": 168
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll.mvfrm",
@@ -11207,82 +10699,50 @@
         102,
         118,
         125,
-<<<<<<< Updated upstream
         186
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 187
-=======
-        168
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 169
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 655961,
-=======
-      "PayloadOffset": 510265,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 188
-=======
-      "DebugActionIndex": 170
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp",
       "DisplayName": "Writing Unity.Timeline.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 656066,
-=======
-      "PayloadOffset": 510370,
->>>>>>> Stashed changes
       "PayloadLength": 34767,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 189
-=======
-      "DebugActionIndex": 171
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp2",
       "DisplayName": "Writing Unity.Timeline.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 690919,
-=======
-      "PayloadOffset": 545223,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 190
-=======
-      "DebugActionIndex": 172
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll (+2 others)",
@@ -11592,7 +11052,6 @@
       "ToBuildDependencies": [
         96,
         116,
-<<<<<<< Updated upstream
         188,
         189,
         190,
@@ -11601,16 +11060,6 @@
       "ToUseDependencies": [
         188,
         190
-=======
-        170,
-        171,
-        172,
-        175
-      ],
-      "ToUseDependencies": [
-        170,
-        172
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp"
@@ -11623,32 +11072,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 191
-=======
-      "DebugActionIndex": 173
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 691047,
-=======
-      "PayloadOffset": 545351,
->>>>>>> Stashed changes
       "PayloadLength": 8045,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 192
-=======
-      "DebugActionIndex": 174
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll.mvfrm",
@@ -11848,82 +11285,50 @@
         102,
         118,
         125,
-<<<<<<< Updated upstream
         192
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 193
-=======
-        174
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 175
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VSCode.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 699202,
-=======
-      "PayloadOffset": 553506,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 194
-=======
-      "DebugActionIndex": 176
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp",
       "DisplayName": "Writing Unity.VSCode.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 699312,
-=======
-      "PayloadOffset": 553616,
->>>>>>> Stashed changes
       "PayloadLength": 30405,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 195
-=======
-      "DebugActionIndex": 177
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp2",
       "DisplayName": "Writing Unity.VSCode.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 729808,
-=======
-      "PayloadOffset": 584112,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 196
-=======
-      "DebugActionIndex": 178
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.dll (+2 others)",
@@ -12177,7 +11582,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         194,
         195,
         196,
@@ -12186,16 +11590,6 @@
       "ToUseDependencies": [
         194,
         196
-=======
-        176,
-        177,
-        178,
-        181
-      ],
-      "ToUseDependencies": [
-        176,
-        178
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp"
@@ -12208,32 +11602,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 197
-=======
-      "DebugActionIndex": 179
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VSCode.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 729941,
-=======
-      "PayloadOffset": 584245,
->>>>>>> Stashed changes
       "PayloadLength": 8295,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 198
-=======
-      "DebugActionIndex": 180
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.dll.mvfrm",
@@ -12439,82 +11821,50 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         198
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 199
-=======
-        180
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 181
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 738353,
-=======
-      "PayloadOffset": 592657,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 200
-=======
-      "DebugActionIndex": 182
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 738470,
-=======
-      "PayloadOffset": 592774,
->>>>>>> Stashed changes
       "PayloadLength": 82489,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 201
-=======
-      "DebugActionIndex": 183
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 821057,
-=======
-      "PayloadOffset": 675361,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 202
-=======
-      "DebugActionIndex": 184
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.dll (+2 others)",
@@ -13179,7 +12529,6 @@
       "ToBuildDependencies": [
         96,
         116,
-<<<<<<< Updated upstream
         200,
         201,
         202,
@@ -13188,16 +12537,6 @@
       "ToUseDependencies": [
         200,
         202
-=======
-        182,
-        183,
-        184,
-        187
-      ],
-      "ToUseDependencies": [
-        182,
-        184
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp"
@@ -13210,32 +12549,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 203
-=======
-      "DebugActionIndex": 185
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 821197,
-=======
-      "PayloadOffset": 675501,
->>>>>>> Stashed changes
       "PayloadLength": 8045,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 204
-=======
-      "DebugActionIndex": 186
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.dll.mvfrm",
@@ -13435,82 +12762,50 @@
         102,
         118,
         125,
-<<<<<<< Updated upstream
         204
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 205
-=======
-        186
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 187
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualStudio.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 829358,
-=======
-      "PayloadOffset": 683662,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 206
-=======
-      "DebugActionIndex": 188
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp",
       "DisplayName": "Writing Unity.VisualStudio.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 829474,
-=======
-      "PayloadOffset": 683778,
->>>>>>> Stashed changes
       "PayloadLength": 32718,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 207
-=======
-      "DebugActionIndex": 189
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualStudio.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 862289,
-=======
-      "PayloadOffset": 716593,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 208
-=======
-      "DebugActionIndex": 190
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll (+2 others)",
@@ -13793,7 +13088,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         206,
         207,
         208,
@@ -13802,16 +13096,6 @@
       "ToUseDependencies": [
         206,
         208
-=======
-        188,
-        189,
-        190,
-        193
-      ],
-      "ToUseDependencies": [
-        188,
-        190
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp"
@@ -13824,32 +13108,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 209
-=======
-      "DebugActionIndex": 191
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualStudio.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 862428,
-=======
-      "PayloadOffset": 716732,
->>>>>>> Stashed changes
       "PayloadLength": 7757,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 210
-=======
-      "DebugActionIndex": 192
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll.mvfrm",
@@ -14038,7 +13310,6 @@
         88,
         89,
         90,
-<<<<<<< Updated upstream
         109,
         110,
         117,
@@ -15171,90 +14442,56 @@
         100,
         101,
         102,
-=======
->>>>>>> Stashed changes
         109,
         110,
         117,
         118,
         125,
-<<<<<<< Updated upstream
         224,
         225
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 226
-=======
-        192
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 193
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Sysroot.Linux_x86_64.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 948636,
-=======
-      "PayloadOffset": 724606,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 227
-=======
-      "DebugActionIndex": 194
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.rsp",
       "DisplayName": "Writing Unity.Sysroot.Linux_x86_64.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 948753,
-=======
-      "PayloadOffset": 724723,
->>>>>>> Stashed changes
       "PayloadLength": 29834,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 228
-=======
-      "DebugActionIndex": 195
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.rsp2",
       "DisplayName": "Writing Unity.Sysroot.Linux_x86_64.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 978685,
-=======
-      "PayloadOffset": 754655,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 229
-=======
-      "DebugActionIndex": 196
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.dll (+2 others)",
@@ -15502,7 +14739,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         167,
         227,
         228,
@@ -15512,17 +14748,6 @@
       "ToUseDependencies": [
         227,
         229
-=======
-        149,
-        194,
-        195,
-        196,
-        200
-      ],
-      "ToUseDependencies": [
-        194,
-        196
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.rsp"
@@ -15535,11 +14760,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 230
-=======
-      "DebugActionIndex": 197
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.SysrootPackage.Editor.ref.dll_51BD9AC91712BC0C.mvfrm",
@@ -15553,40 +14774,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.SysrootPackage.Editor.ref.dll_51BD9AC91712BC0C.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         167
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 231
-=======
-        149
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 198
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Sysroot.Linux_x86_64.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 978825,
-=======
-      "PayloadOffset": 754795,
->>>>>>> Stashed changes
       "PayloadLength": 8384,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 232
-=======
-      "DebugActionIndex": 199
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.dll.mvfrm",
@@ -15793,84 +14998,51 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         231,
         232
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 233
-=======
-        198,
-        199
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 200
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 987335,
-=======
-      "PayloadOffset": 763305,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 234
-=======
-      "DebugActionIndex": 201
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 987461,
-=======
-      "PayloadOffset": 763431,
->>>>>>> Stashed changes
       "PayloadLength": 34083,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 235
-=======
-      "DebugActionIndex": 202
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp2",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1021651,
-=======
-      "PayloadOffset": 797621,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 236
-=======
-      "DebugActionIndex": 203
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.dll (+2 others)",
@@ -16160,7 +15332,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         161,
         173,
         179,
@@ -16172,19 +15343,6 @@
       "ToUseDependencies": [
         234,
         236
-=======
-        143,
-        155,
-        161,
-        201,
-        202,
-        203,
-        209
-      ],
-      "ToUseDependencies": [
-        201,
-        203
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp"
@@ -16197,11 +15355,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 237
-=======
-      "DebugActionIndex": 204
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Settings.Editor.ref.dll_7F5B154C05A780B0.mvfrm",
@@ -16215,19 +15369,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Settings.Editor.ref.dll_7F5B154C05A780B0.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         161
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 238
-=======
-        143
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 205
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_D3B9364D6FB03093.mvfrm",
@@ -16241,19 +15387,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_D3B9364D6FB03093.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         173
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 239
-=======
-        155
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 206
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_E668CD773429A040.mvfrm",
@@ -16267,40 +15405,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_E668CD773429A040.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         179
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 240
-=======
-        161
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 207
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1021800,
-=======
-      "PayloadOffset": 797770,
->>>>>>> Stashed changes
       "PayloadLength": 8076,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 241
-=======
-      "DebugActionIndex": 208
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.dll.mvfrm",
@@ -16497,7 +15619,6 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         238,
         239,
         240,
@@ -16506,79 +15627,45 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 242
-=======
-        205,
-        206,
-        207,
-        208
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 209
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1029991,
-=======
-      "PayloadOffset": 805961,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 243
-=======
-      "DebugActionIndex": 210
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1030106,
-=======
-      "PayloadOffset": 806076,
->>>>>>> Stashed changes
       "PayloadLength": 34199,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 244
-=======
-      "DebugActionIndex": 211
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1064401,
-=======
-      "PayloadOffset": 840371,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 245
-=======
-      "DebugActionIndex": 212
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll (+2 others)",
@@ -16873,7 +15960,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         185,
         243,
         244,
@@ -16883,17 +15969,6 @@
       "ToUseDependencies": [
         243,
         245
-=======
-        167,
-        210,
-        211,
-        212,
-        216
-      ],
-      "ToUseDependencies": [
-        210,
-        212
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp"
@@ -16906,11 +15981,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 246
-=======
-      "DebugActionIndex": 213
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_84A4293DBDD182DB.mvfrm",
@@ -16924,40 +15995,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_84A4293DBDD182DB.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         185
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 247
-=======
-        167
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 214
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1064539,
-=======
-      "PayloadOffset": 840509,
->>>>>>> Stashed changes
       "PayloadLength": 8374,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 248
-=======
-      "DebugActionIndex": 215
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm",
@@ -17164,84 +16219,51 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         247,
         248
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 249
-=======
-        214,
-        215
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 216
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1073025,
-=======
-      "PayloadOffset": 848995,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 250
-=======
-      "DebugActionIndex": 217
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp",
       "DisplayName": "Writing Unity.Timeline.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1073137,
-=======
-      "PayloadOffset": 849107,
->>>>>>> Stashed changes
       "PayloadLength": 54039,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 251
-=======
-      "DebugActionIndex": 218
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp2",
       "DisplayName": "Writing Unity.Timeline.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1127269,
-=======
-      "PayloadOffset": 903239,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 252
-=======
-      "DebugActionIndex": 219
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll (+2 others)",
@@ -17760,7 +16782,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         191,
         250,
         251,
@@ -17770,17 +16791,6 @@
       "ToUseDependencies": [
         250,
         252
-=======
-        173,
-        217,
-        218,
-        219,
-        223
-      ],
-      "ToUseDependencies": [
-        217,
-        219
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp"
@@ -17793,11 +16803,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 253
-=======
-      "DebugActionIndex": 220
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_621CDDF9C514DF8F.mvfrm",
@@ -17811,40 +16817,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_621CDDF9C514DF8F.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         191
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 254
-=======
-        173
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 221
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1127404,
-=======
-      "PayloadOffset": 903374,
->>>>>>> Stashed changes
       "PayloadLength": 8371,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 255
-=======
-      "DebugActionIndex": 222
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll.mvfrm",
@@ -18051,84 +17041,51 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         254,
         255
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 256
-=======
-        221,
-        222
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 223
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1135899,
-=======
-      "PayloadOffset": 911869,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 257
-=======
-      "DebugActionIndex": 224
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1136023,
-=======
-      "PayloadOffset": 911993,
->>>>>>> Stashed changes
       "PayloadLength": 86704,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 258
-=======
-      "DebugActionIndex": 225
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1222832,
-=======
-      "PayloadOffset": 998802,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 259
-=======
-      "DebugActionIndex": 226
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.dll (+2 others)",
@@ -18845,7 +17802,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         203,
         257,
         258,
@@ -18855,17 +17811,6 @@
       "ToUseDependencies": [
         257,
         259
-=======
-        185,
-        224,
-        225,
-        226,
-        230
-      ],
-      "ToUseDependencies": [
-        224,
-        226
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp"
@@ -18878,11 +17823,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 260
-=======
-      "DebugActionIndex": 227
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_D75DF4EA1AFE54F4.mvfrm",
@@ -18896,40 +17837,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_D75DF4EA1AFE54F4.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         203
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 261
-=======
-        185
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 228
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1222979,
-=======
-      "PayloadOffset": 998949,
->>>>>>> Stashed changes
       "PayloadLength": 8383,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 262
-=======
-      "DebugActionIndex": 229
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.dll.mvfrm",
@@ -19136,84 +18061,51 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         261,
         262
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 263
-=======
-        228,
-        229
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 230
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1231479,
-=======
-      "PayloadOffset": 1007449,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 264
-=======
-      "DebugActionIndex": 231
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1231596,
-=======
-      "PayloadOffset": 1007566,
->>>>>>> Stashed changes
       "PayloadLength": 77899,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 265
-=======
-      "DebugActionIndex": 232
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1309593,
-=======
-      "PayloadOffset": 1085563,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 266
-=======
-      "DebugActionIndex": 233
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.dll (+2 others)",
@@ -19853,7 +18745,6 @@
       "ToBuildDependencies": [
         96,
         116,
-<<<<<<< Updated upstream
         203,
         264,
         265,
@@ -19863,17 +18754,6 @@
       "ToUseDependencies": [
         264,
         266
-=======
-        185,
-        231,
-        232,
-        233,
-        236
-      ],
-      "ToUseDependencies": [
-        231,
-        233
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp"
@@ -19886,32 +18766,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 267
-=======
-      "DebugActionIndex": 234
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1309733,
-=======
-      "PayloadOffset": 1085703,
->>>>>>> Stashed changes
       "PayloadLength": 8133,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 268
-=======
-      "DebugActionIndex": 235
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.dll.mvfrm",
@@ -20112,7 +18980,6 @@
         102,
         118,
         125,
-<<<<<<< Updated upstream
         261,
         268
       ],
@@ -20682,77 +19549,45 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 276
-=======
-        228,
-        235
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 236
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Toolchain.Win-x86_64-Linux-x86_64.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1357434,
-=======
-      "PayloadOffset": 1093966,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 277
-=======
-      "DebugActionIndex": 237
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.rsp",
       "DisplayName": "Writing Unity.Toolchain.Win-x86_64-Linux-x86_64.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1357564,
-=======
-      "PayloadOffset": 1094096,
->>>>>>> Stashed changes
       "PayloadLength": 29964,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 278
-=======
-      "DebugActionIndex": 238
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.rsp2",
       "DisplayName": "Writing Unity.Toolchain.Win-x86_64-Linux-x86_64.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1387639,
-=======
-      "PayloadOffset": 1124171,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 279
-=======
-      "DebugActionIndex": 239
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll (+2 others)",
@@ -21001,7 +19836,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         167,
         230,
         277,
@@ -21012,18 +19846,6 @@
       "ToUseDependencies": [
         277,
         279
-=======
-        149,
-        197,
-        237,
-        238,
-        239,
-        243
-      ],
-      "ToUseDependencies": [
-        237,
-        239
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.rsp"
@@ -21036,11 +19858,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 280
-=======
-      "DebugActionIndex": 240
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Sysroot.Linux_x86_64.ref.dll_24C7B1A47E18827F.mvfrm",
@@ -21054,40 +19872,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Sysroot.Linux_x86_64.ref.dll_24C7B1A47E18827F.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         230
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 281
-=======
-        197
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 241
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Toolchain.Win-x86_64-Linux-x86_64.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1387792,
-=======
-      "PayloadOffset": 1124324,
->>>>>>> Stashed changes
       "PayloadLength": 8472,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 282
-=======
-      "DebugActionIndex": 242
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll.mvfrm",
@@ -21295,7 +20097,6 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         231,
         281,
         282
@@ -21303,78 +20104,45 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 283
-=======
-        198,
-        241,
-        242
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 243
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1396388,
-=======
-      "PayloadOffset": 1132920,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 284
-=======
-      "DebugActionIndex": 244
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1396512,
-=======
-      "PayloadOffset": 1133044,
->>>>>>> Stashed changes
       "PayloadLength": 50263,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 285
-=======
-      "DebugActionIndex": 245
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1446880,
-=======
-      "PayloadOffset": 1183412,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 286
-=======
-      "DebugActionIndex": 246
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.dll (+2 others)",
@@ -21792,7 +20560,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         203,
         260,
         267,
@@ -21804,19 +20571,6 @@
       "ToUseDependencies": [
         284,
         286
-=======
-        185,
-        227,
-        234,
-        244,
-        245,
-        246,
-        251
-      ],
-      "ToUseDependencies": [
-        244,
-        246
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp"
@@ -21829,11 +20583,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 287
-=======
-      "DebugActionIndex": 247
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.Editor.ref.dll_EDC8690F57C5BDFD.mvfrm",
@@ -21847,19 +20597,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.Editor.ref.dll_EDC8690F57C5BDFD.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         260
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 288
-=======
-        227
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 248
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_1E6ED5409D07C9A3.mvfrm",
@@ -21873,40 +20615,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_1E6ED5409D07C9A3.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         267
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 289
-=======
-        234
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 249
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1447027,
-=======
-      "PayloadOffset": 1183559,
->>>>>>> Stashed changes
       "PayloadLength": 8566,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 290
-=======
-      "DebugActionIndex": 250
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.dll.mvfrm",
@@ -22115,7 +20841,6 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         261,
         288,
         289,
@@ -22124,79 +20849,45 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 291
-=======
-        228,
-        248,
-        249,
-        250
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 251
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1455711,
-=======
-      "PayloadOffset": 1192243,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 292
-=======
-      "DebugActionIndex": 252
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1455829,
-=======
-      "PayloadOffset": 1192361,
->>>>>>> Stashed changes
       "PayloadLength": 31903,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 293
-=======
-      "DebugActionIndex": 253
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1487831,
-=======
-      "PayloadOffset": 1224363,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 294
-=======
-      "DebugActionIndex": 254
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.dll (+2 others)",
@@ -22466,7 +21157,6 @@
       "ToBuildDependencies": [
         96,
         116,
-<<<<<<< Updated upstream
         203,
         267,
         292,
@@ -22477,18 +21167,6 @@
       "ToUseDependencies": [
         292,
         294
-=======
-        185,
-        234,
-        252,
-        253,
-        254,
-        257
-      ],
-      "ToUseDependencies": [
-        252,
-        254
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp"
@@ -22501,32 +21179,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 295
-=======
-      "DebugActionIndex": 255
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1487972,
-=======
-      "PayloadOffset": 1224504,
->>>>>>> Stashed changes
       "PayloadLength": 8221,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 296
-=======
-      "DebugActionIndex": 256
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.dll.mvfrm",
@@ -22728,7 +21394,6 @@
         102,
         118,
         125,
-<<<<<<< Updated upstream
         261,
         289,
         296
@@ -22736,78 +21401,45 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 297
-=======
-        228,
-        249,
-        256
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 257
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1496329,
-=======
-      "PayloadOffset": 1232861,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 298
-=======
-      "DebugActionIndex": 258
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1496465,
-=======
-      "PayloadOffset": 1232997,
->>>>>>> Stashed changes
       "PayloadLength": 31311,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 299
-=======
-      "DebugActionIndex": 259
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1527893,
-=======
-      "PayloadOffset": 1264425,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 300
-=======
-      "DebugActionIndex": 260
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.dll (+2 others)",
@@ -23068,7 +21700,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         203,
         260,
         267,
@@ -23082,21 +21713,6 @@
       "ToUseDependencies": [
         298,
         300
-=======
-        185,
-        227,
-        234,
-        247,
-        255,
-        258,
-        259,
-        260,
-        265
-      ],
-      "ToUseDependencies": [
-        258,
-        260
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp"
@@ -23109,11 +21725,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 301
-=======
-      "DebugActionIndex": 261
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.Editor.ref.dll_6AF951BE66A4493E.mvfrm",
@@ -23127,19 +21739,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.Editor.ref.dll_6AF951BE66A4493E.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         287
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 302
-=======
-        247
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 262
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_D91762B7076BE462.mvfrm",
@@ -23153,40 +21757,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_D91762B7076BE462.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         295
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 303
-=======
-        255
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 263
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1528052,
-=======
-      "PayloadOffset": 1264584,
->>>>>>> Stashed changes
       "PayloadLength": 8750,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 304
-=======
-      "DebugActionIndex": 264
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm",
@@ -23397,7 +21985,6 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         261,
         288,
         289,
@@ -23408,81 +21995,45 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 305
-=======
-        228,
-        248,
-        249,
-        262,
-        263,
-        264
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 265
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1536927,
-=======
-      "PayloadOffset": 1273459,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 306
-=======
-      "DebugActionIndex": 266
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1537052,
-=======
-      "PayloadOffset": 1273584,
->>>>>>> Stashed changes
       "PayloadLength": 38138,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 307
-=======
-      "DebugActionIndex": 267
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1575296,
-=======
-      "PayloadOffset": 1311828,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 308
-=======
-      "DebugActionIndex": 268
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.dll (+2 others)",
@@ -23801,7 +22352,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         203,
         260,
         267,
@@ -23815,21 +22365,6 @@
       "ToUseDependencies": [
         306,
         308
-=======
-        185,
-        227,
-        234,
-        247,
-        255,
-        266,
-        267,
-        268,
-        271
-      ],
-      "ToUseDependencies": [
-        266,
-        268
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp"
@@ -23842,32 +22377,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 309
-=======
-      "DebugActionIndex": 269
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1575444,
-=======
-      "PayloadOffset": 1311976,
->>>>>>> Stashed changes
       "PayloadLength": 8750,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 310
-=======
-      "DebugActionIndex": 270
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.dll.mvfrm",
@@ -24078,7 +22601,6 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         261,
         288,
         289,
@@ -24089,81 +22611,45 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 311
-=======
-        228,
-        248,
-        249,
-        262,
-        263,
-        270
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 271
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1584320,
-=======
-      "PayloadOffset": 1320852,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 312
-=======
-      "DebugActionIndex": 272
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1584446,
-=======
-      "PayloadOffset": 1320978,
->>>>>>> Stashed changes
       "PayloadLength": 30284,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 313
-=======
-      "DebugActionIndex": 273
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1614837,
-=======
-      "PayloadOffset": 1351369,
->>>>>>> Stashed changes
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 314
-=======
-      "DebugActionIndex": 274
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.dll (+2 others)",
@@ -24416,7 +22902,6 @@
         96,
         108,
         116,
-<<<<<<< Updated upstream
         203,
         260,
         267,
@@ -24431,22 +22916,6 @@
       "ToUseDependencies": [
         312,
         314
-=======
-        185,
-        227,
-        234,
-        247,
-        255,
-        269,
-        272,
-        273,
-        274,
-        278
-      ],
-      "ToUseDependencies": [
-        272,
-        274
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp"
@@ -24459,11 +22928,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-<<<<<<< Updated upstream
       "DebugActionIndex": 315
-=======
-      "DebugActionIndex": 275
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.Editor.ref.dll_E03858E727F23F6F.mvfrm",
@@ -24477,40 +22942,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.Editor.ref.dll_E03858E727F23F6F.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         309
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 316
-=======
-        269
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 276
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1614986,
-=======
-      "PayloadOffset": 1351518,
->>>>>>> Stashed changes
       "PayloadLength": 8846,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 317
-=======
-      "DebugActionIndex": 277
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm",
@@ -24722,7 +23171,6 @@
         117,
         118,
         125,
-<<<<<<< Updated upstream
         261,
         288,
         289,
@@ -24734,83 +23182,45 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 318
-=======
-        228,
-        248,
-        249,
-        262,
-        263,
-        276,
-        277
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 278
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1623938,
-=======
-      "PayloadOffset": 1360470,
->>>>>>> Stashed changes
       "PayloadLength": 20,
       "PayloadDebugContentSnippet": "D:\\GameDev\\VibeCheck",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 319
-=======
-      "DebugActionIndex": 279
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
       "PayloadOffset": 1624044,
-      "PayloadLength": 29685,
-=======
-      "PayloadOffset": 1360576,
-      "PayloadLength": 29297,
->>>>>>> Stashed changes
+      "PayloadLength": 29750,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 320
-=======
-      "DebugActionIndex": 280
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1653816,
-=======
-      "PayloadOffset": 1389960,
->>>>>>> Stashed changes
+      "PayloadOffset": 1653881,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 321
-=======
-      "DebugActionIndex": 281
->>>>>>> Stashed changes
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)",
@@ -25030,6 +23440,7 @@
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Sysroot.Linux_x86_64.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Unity.SysrootPackage.Editor.ref.dll",
@@ -25053,8 +23464,10 @@
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
+        "Assets/Scripts/creditsScroll.cs",
         "Assets/Scripts/NPCBehaviour.cs",
         "Assets/Scripts/PlayerController.cs",
+        "Assets/Scripts/uiScript.cs",
         "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
@@ -25070,22 +23483,15 @@
         124,
         131,
         137,
-<<<<<<< Updated upstream
         143,
         149,
         155,
-=======
-        149,
-        155,
-        161,
->>>>>>> Stashed changes
         167,
         173,
         179,
         185,
         191,
         197,
-<<<<<<< Updated upstream
         203,
         209,
         215,
@@ -25110,27 +23516,6 @@
       "ToUseDependencies": [
         319,
         321
-=======
-        204,
-        213,
-        220,
-        227,
-        234,
-        240,
-        247,
-        255,
-        261,
-        269,
-        275,
-        279,
-        280,
-        281,
-        295
-      ],
-      "ToUseDependencies": [
-        279,
-        281
->>>>>>> Stashed changes
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
@@ -25142,7 +23527,6 @@
           "Value": "0"
         }
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 322
     },
     {
@@ -25162,9 +23546,6 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 323
-=======
-      "DebugActionIndex": 282
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_34ED10A34098B2DB.mvfrm",
@@ -25178,7 +23559,6 @@
         "Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_34ED10A34098B2DB.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         137
       ],
       "AllowUnexpectedOutput": true,
@@ -25202,31 +23582,6 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 325
-=======
-        124
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 283
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Performance.Profile-Analyzer.Editor.ref.dll_65A192712782EB2B.mvfrm",
-      "DisplayName": "MovedFromExtractor Unity.Performance.Profile-Analyzer.Editor.ref.dll_65A192712782EB2B",
-      "Action": "\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Performance.Profile-Analyzer.Editor.ref.dll_65A192712782EB2B.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.Performance.Profile-Analyzer.Editor.ref.dll\"",
-      "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll",
-        "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.Performance.Profile-Analyzer.Editor.ref.dll_65A192712782EB2B.mvfrm"
-      ],
-      "ToBuildDependencies": [
-        131
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 284
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm",
@@ -25240,19 +23595,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         155
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 326
-=======
-        137
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 285
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.ref.dll_F09CF4826CE11CD9.mvfrm",
@@ -25266,7 +23613,6 @@
         "Library/Bee/artifacts/mvdfrm/Unity.TestTools.CodeCoverage.Editor.ref.dll_F09CF4826CE11CD9.mvfrm"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         237
       ],
       "AllowUnexpectedOutput": true,
@@ -25398,161 +23744,19 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 334
-=======
-        204
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 286
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.mvfrm",
-      "DisplayName": "MovedFromExtractor Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86",
-      "Action": "\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.TextMeshPro.Editor.ref.dll\"",
-      "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll",
-        "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.mvfrm"
-      ],
-      "ToBuildDependencies": [
-        213
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 287
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_0D3D3C0B73557612.mvfrm",
-      "DisplayName": "MovedFromExtractor Unity.Timeline.Editor.ref.dll_0D3D3C0B73557612",
-      "Action": "\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Timeline.Editor.ref.dll_0D3D3C0B73557612.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.Timeline.Editor.ref.dll\"",
-      "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.ref.dll",
-        "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_0D3D3C0B73557612.mvfrm"
-      ],
-      "ToBuildDependencies": [
-        220
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 288
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Toolchain.Win-x86_64-Linux-x86_64.ref.dll_224B50E477DB13E8.mvfrm",
-      "DisplayName": "MovedFromExtractor Unity.Toolchain.Win-x86_64-Linux-x86_64.ref.dll_224B50E477DB13E8",
-      "Action": "\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Toolchain.Win-x86_64-Linux-x86_64.ref.dll_224B50E477DB13E8.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.Toolchain.Win-x86_64-Linux-x86_64.ref.dll\"",
-      "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Toolchain.Win-x86_64-Linux-x86_64.ref.dll",
-        "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.Toolchain.Win-x86_64-Linux-x86_64.ref.dll_224B50E477DB13E8.mvfrm"
-      ],
-      "ToBuildDependencies": [
-        240
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 289
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VSCode.Editor.ref.dll_3628369EB48E4C19.mvfrm",
-      "DisplayName": "MovedFromExtractor Unity.VSCode.Editor.ref.dll_3628369EB48E4C19",
-      "Action": "\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.VSCode.Editor.ref.dll_3628369EB48E4C19.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.VSCode.Editor.ref.dll\"",
-      "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
-        "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.VSCode.Editor.ref.dll_3628369EB48E4C19.mvfrm"
-      ],
-      "ToBuildDependencies": [
-        179
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 290
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.SettingsProvider.Editor.ref.dll_A1A44354E0B583A8.mvfrm",
-      "DisplayName": "MovedFromExtractor Unity.VisualScripting.SettingsProvider.Editor.ref.dll_A1A44354E0B583A8",
-      "Action": "\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.VisualScripting.SettingsProvider.Editor.ref.dll_A1A44354E0B583A8.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.VisualScripting.SettingsProvider.Editor.ref.dll\"",
-      "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.ref.dll",
-        "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.SettingsProvider.Editor.ref.dll_A1A44354E0B583A8.mvfrm"
-      ],
-      "ToBuildDependencies": [
-        261
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 291
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_9669F6EBFF6DFFB7.mvfrm",
-      "DisplayName": "MovedFromExtractor Unity.VisualScripting.Shared.Editor.ref.dll_9669F6EBFF6DFFB7",
-      "Action": "\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.VisualScripting.Shared.Editor.ref.dll_9669F6EBFF6DFFB7.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.VisualScripting.Shared.Editor.ref.dll\"",
-      "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.ref.dll",
-        "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_9669F6EBFF6DFFB7.mvfrm"
-      ],
-      "ToBuildDependencies": [
-        275
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 292
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.mvfrm",
-      "DisplayName": "MovedFromExtractor Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD",
-      "Action": "\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.VisualStudio.Editor.ref.dll\"",
-      "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll",
-        "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.mvfrm"
-      ],
-      "ToBuildDependencies": [
-        191
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 293
->>>>>>> Stashed changes
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1653912,
+      "PayloadOffset": 1653977,
       "PayloadLength": 10007,
-=======
-      "PayloadOffset": 1390056,
-      "PayloadLength": 9559,
->>>>>>> Stashed changes
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 335
-=======
-      "DebugActionIndex": 294
->>>>>>> Stashed changes
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm",
@@ -25565,6 +23769,7 @@
         "Library/Bee/artifacts/mvdfrm/Unity.AI.Navigation.ref.dll_407F07063643C512.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.EditorCoroutines.Editor.ref.dll_34ED10A34098B2DB.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.Performance.Profile-Analyzer.Editor.ref.dll_65A192712782EB2B.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.PlasticSCM.Editor.ref.dll_257AEB342BE77856.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.Sysroot.Linux_x86_64.ref.dll_24C7B1A47E18827F.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.SysrootPackage.Editor.ref.dll_51BD9AC91712BC0C.mvfrm",
@@ -25765,7 +23970,6 @@
         102,
         118,
         125,
-<<<<<<< Updated upstream
         216,
         217,
         224,
@@ -25799,36 +24003,6 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 336
-=======
-        198,
-        206,
-        207,
-        214,
-        221,
-        228,
-        241,
-        248,
-        249,
-        262,
-        263,
-        276,
-        283,
-        284,
-        285,
-        286,
-        287,
-        288,
-        289,
-        290,
-        291,
-        292,
-        293,
-        294
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 295
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
@@ -25843,11 +24017,7 @@
       "ToBuildDependencies": [
         4
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 337
-=======
-      "DebugActionIndex": 296
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb",
@@ -25862,11 +24032,7 @@
       "ToBuildDependencies": [
         4
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 338
-=======
-      "DebugActionIndex": 297
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll",
@@ -25881,11 +24047,7 @@
       "ToBuildDependencies": [
         108
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 339
-=======
-      "DebugActionIndex": 298
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb",
@@ -25900,11 +24062,7 @@
       "ToBuildDependencies": [
         108
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 340
-=======
-      "DebugActionIndex": 299
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.dll",
@@ -25917,15 +24075,9 @@
         "Library/ScriptAssemblies/Unity.Rider.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         155
       ],
       "DebugActionIndex": 341
-=======
-        137
-      ],
-      "DebugActionIndex": 300
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.pdb",
@@ -25938,15 +24090,9 @@
         "Library/ScriptAssemblies/Unity.Rider.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         155
       ],
       "DebugActionIndex": 342
-=======
-        137
-      ],
-      "DebugActionIndex": 301
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.dll",
@@ -25959,15 +24105,9 @@
         "Library/ScriptAssemblies/Unity.VSCode.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         197
       ],
       "DebugActionIndex": 343
-=======
-        179
-      ],
-      "DebugActionIndex": 302
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.pdb",
@@ -25980,15 +24120,9 @@
         "Library/ScriptAssemblies/Unity.VSCode.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         197
       ],
       "DebugActionIndex": 344
-=======
-        179
-      ],
-      "DebugActionIndex": 303
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll",
@@ -26001,15 +24135,9 @@
         "Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         209
       ],
       "DebugActionIndex": 345
-=======
-        191
-      ],
-      "DebugActionIndex": 304
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb",
@@ -26022,15 +24150,9 @@
         "Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         209
       ],
       "DebugActionIndex": 346
-=======
-        191
-      ],
-      "DebugActionIndex": 305
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll",
@@ -26045,11 +24167,7 @@
       "ToBuildDependencies": [
         96
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 347
-=======
-      "DebugActionIndex": 306
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb",
@@ -26064,11 +24182,7 @@
       "ToBuildDependencies": [
         96
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 348
-=======
-      "DebugActionIndex": 307
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll",
@@ -26083,11 +24197,7 @@
       "ToBuildDependencies": [
         116
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 349
-=======
-      "DebugActionIndex": 308
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb",
@@ -26102,7 +24212,6 @@
       "ToBuildDependencies": [
         116
       ],
-<<<<<<< Updated upstream
       "DebugActionIndex": 350
     },
     {
@@ -26164,9 +24273,6 @@
         131
       ],
       "DebugActionIndex": 354
-=======
-      "DebugActionIndex": 309
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll",
@@ -26179,15 +24285,9 @@
         "Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         137
       ],
       "DebugActionIndex": 355
-=======
-        124
-      ],
-      "DebugActionIndex": 310
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.pdb",
@@ -26200,15 +24300,9 @@
         "Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         137
       ],
       "DebugActionIndex": 356
-=======
-        124
-      ],
-      "DebugActionIndex": 311
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll",
@@ -26221,15 +24315,9 @@
         "Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         143
       ],
       "DebugActionIndex": 357
-=======
-        131
-      ],
-      "DebugActionIndex": 312
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.pdb",
@@ -26242,7 +24330,6 @@
         "Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         143
       ],
       "DebugActionIndex": 358
@@ -26276,11 +24363,6 @@
         149
       ],
       "DebugActionIndex": 360
-=======
-        131
-      ],
-      "DebugActionIndex": 313
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.dll",
@@ -26293,15 +24375,9 @@
         "Library/ScriptAssemblies/Unity.Settings.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         161
       ],
       "DebugActionIndex": 361
-=======
-        143
-      ],
-      "DebugActionIndex": 314
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.pdb",
@@ -26314,15 +24390,9 @@
         "Library/ScriptAssemblies/Unity.Settings.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         161
       ],
       "DebugActionIndex": 362
-=======
-        143
-      ],
-      "DebugActionIndex": 315
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll",
@@ -26335,15 +24405,9 @@
         "Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         167
       ],
       "DebugActionIndex": 363
-=======
-        149
-      ],
-      "DebugActionIndex": 316
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.SysrootPackage.Editor.pdb",
@@ -26356,15 +24420,9 @@
         "Library/ScriptAssemblies/Unity.SysrootPackage.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         167
       ],
       "DebugActionIndex": 364
-=======
-        149
-      ],
-      "DebugActionIndex": 317
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll",
@@ -26377,15 +24435,9 @@
         "Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         173
       ],
       "DebugActionIndex": 365
-=======
-        155
-      ],
-      "DebugActionIndex": 318
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb",
@@ -26398,15 +24450,9 @@
         "Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         173
       ],
       "DebugActionIndex": 366
-=======
-        155
-      ],
-      "DebugActionIndex": 319
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll",
@@ -26419,15 +24465,9 @@
         "Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         179
       ],
       "DebugActionIndex": 367
-=======
-        161
-      ],
-      "DebugActionIndex": 320
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb",
@@ -26440,15 +24480,9 @@
         "Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         179
       ],
       "DebugActionIndex": 368
-=======
-        161
-      ],
-      "DebugActionIndex": 321
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll",
@@ -26461,15 +24495,9 @@
         "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         185
       ],
       "DebugActionIndex": 369
-=======
-        167
-      ],
-      "DebugActionIndex": 322
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb",
@@ -26482,15 +24510,9 @@
         "Library/ScriptAssemblies/Unity.TextMeshPro.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         185
       ],
       "DebugActionIndex": 370
-=======
-        167
-      ],
-      "DebugActionIndex": 323
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll",
@@ -26503,15 +24525,9 @@
         "Library/ScriptAssemblies/Unity.Timeline.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         191
       ],
       "DebugActionIndex": 371
-=======
-        173
-      ],
-      "DebugActionIndex": 324
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb",
@@ -26524,15 +24540,9 @@
         "Library/ScriptAssemblies/Unity.Timeline.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         191
       ],
       "DebugActionIndex": 372
-=======
-        173
-      ],
-      "DebugActionIndex": 325
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -26545,15 +24555,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         203
       ],
       "DebugActionIndex": 373
-=======
-        185
-      ],
-      "DebugActionIndex": 326
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.pdb",
@@ -26566,7 +24570,6 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         203
       ],
       "DebugActionIndex": 374
@@ -26630,11 +24633,6 @@
         223
       ],
       "DebugActionIndex": 378
-=======
-        185
-      ],
-      "DebugActionIndex": 327
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll",
@@ -26647,15 +24645,9 @@
         "Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         230
       ],
       "DebugActionIndex": 379
-=======
-        197
-      ],
-      "DebugActionIndex": 328
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.pdb",
@@ -26668,15 +24660,9 @@
         "Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         230
       ],
       "DebugActionIndex": 380
-=======
-        197
-      ],
-      "DebugActionIndex": 329
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll",
@@ -26689,15 +24675,9 @@
         "Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         237
       ],
       "DebugActionIndex": 381
-=======
-        204
-      ],
-      "DebugActionIndex": 330
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.pdb",
@@ -26710,15 +24690,9 @@
         "Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         237
       ],
       "DebugActionIndex": 382
-=======
-        204
-      ],
-      "DebugActionIndex": 331
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll",
@@ -26731,15 +24705,9 @@
         "Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         246
       ],
       "DebugActionIndex": 383
-=======
-        213
-      ],
-      "DebugActionIndex": 332
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb",
@@ -26752,15 +24720,9 @@
         "Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         246
       ],
       "DebugActionIndex": 384
-=======
-        213
-      ],
-      "DebugActionIndex": 333
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll",
@@ -26773,15 +24735,9 @@
         "Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         253
       ],
       "DebugActionIndex": 385
-=======
-        220
-      ],
-      "DebugActionIndex": 334
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb",
@@ -26794,15 +24750,9 @@
         "Library/ScriptAssemblies/Unity.Timeline.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         253
       ],
       "DebugActionIndex": 386
-=======
-        220
-      ],
-      "DebugActionIndex": 335
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll",
@@ -26815,15 +24765,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         260
       ],
       "DebugActionIndex": 387
-=======
-        227
-      ],
-      "DebugActionIndex": 336
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.pdb",
@@ -26836,15 +24780,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         260
       ],
       "DebugActionIndex": 388
-=======
-        227
-      ],
-      "DebugActionIndex": 337
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
@@ -26857,15 +24795,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         267
       ],
       "DebugActionIndex": 389
-=======
-        234
-      ],
-      "DebugActionIndex": 338
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.pdb",
@@ -26878,7 +24810,6 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Flow.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         267
       ],
       "DebugActionIndex": 390
@@ -26912,11 +24843,6 @@
         273
       ],
       "DebugActionIndex": 392
-=======
-        234
-      ],
-      "DebugActionIndex": 339
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll",
@@ -26929,15 +24855,9 @@
         "Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         280
       ],
       "DebugActionIndex": 393
-=======
-        240
-      ],
-      "DebugActionIndex": 340
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.pdb",
@@ -26950,15 +24870,9 @@
         "Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         280
       ],
       "DebugActionIndex": 394
-=======
-        240
-      ],
-      "DebugActionIndex": 341
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll",
@@ -26971,15 +24885,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         287
       ],
       "DebugActionIndex": 395
-=======
-        247
-      ],
-      "DebugActionIndex": 342
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.pdb",
@@ -26992,15 +24900,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         287
       ],
       "DebugActionIndex": 396
-=======
-        247
-      ],
-      "DebugActionIndex": 343
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
@@ -27013,15 +24915,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         295
       ],
       "DebugActionIndex": 397
-=======
-        255
-      ],
-      "DebugActionIndex": 344
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.pdb",
@@ -27034,15 +24930,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         295
       ],
       "DebugActionIndex": 398
-=======
-        255
-      ],
-      "DebugActionIndex": 345
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll",
@@ -27055,15 +24945,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         301
       ],
       "DebugActionIndex": 399
-=======
-        261
-      ],
-      "DebugActionIndex": 346
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.pdb",
@@ -27076,15 +24960,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         301
       ],
       "DebugActionIndex": 400
-=======
-        261
-      ],
-      "DebugActionIndex": 347
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll",
@@ -27097,15 +24975,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         309
       ],
       "DebugActionIndex": 401
-=======
-        269
-      ],
-      "DebugActionIndex": 348
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.pdb",
@@ -27118,15 +24990,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         309
       ],
       "DebugActionIndex": 402
-=======
-        269
-      ],
-      "DebugActionIndex": 349
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll",
@@ -27139,15 +25005,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         315
       ],
       "DebugActionIndex": 403
-=======
-        275
-      ],
-      "DebugActionIndex": 350
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.pdb",
@@ -27160,15 +25020,9 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         315
       ],
       "DebugActionIndex": 404
-=======
-        275
-      ],
-      "DebugActionIndex": 351
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll",
@@ -27181,15 +25035,9 @@
         "Library/ScriptAssemblies/Assembly-CSharp.dll"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         322
       ],
       "DebugActionIndex": 405
-=======
-        282
-      ],
-      "DebugActionIndex": 352
->>>>>>> Stashed changes
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb",
@@ -27202,24 +25050,14 @@
         "Library/ScriptAssemblies/Assembly-CSharp.pdb"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         322
       ],
       "DebugActionIndex": 406
-=======
-        282
-      ],
-      "DebugActionIndex": 353
->>>>>>> Stashed changes
     },
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-<<<<<<< Updated upstream
       "Action": "\"D:/Unity/Editor/2022.3.16f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Unity.AI.Navigation.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\" -s=\"D:\\GameDev\\VibeCheck\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\GameDev\\VibeCheck\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\" -s=\"D:\\GameDev\\VibeCheck\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
-=======
-      "Action": "\"D:/Unity/Editor/2022.3.16f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"D:\\GameDev\\VibeCheck\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"D:\\Unity\\Editor\\2022.3.16f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\GameDev\\VibeCheck\\Library\\ScriptAssemblies\" -s=\"D:\\GameDev\\VibeCheck\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\GameDev\\VibeCheck\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\" -s=\"D:\\GameDev\\VibeCheck\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
->>>>>>> Stashed changes
       "Inputs": [
         "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "D:/Unity/Editor/2022.3.16f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -27240,7 +25078,6 @@
         "Library/BuildPlayerData/Editor/TypeDb-All.json"
       ],
       "ToBuildDependencies": [
-<<<<<<< Updated upstream
         337,
         347,
         353,
@@ -27254,20 +25091,6 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 407
-=======
-        296,
-        306,
-        322,
-        324,
-        326,
-        338,
-        344,
-        352
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 354
->>>>>>> Stashed changes
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -27276,17 +25099,10 @@
       "Outputs": [],
       "ToBuildDependencies": [
         6,
-<<<<<<< Updated upstream
         407
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 408
-=======
-        354
-      ],
-      "OverwriteOutputs": false,
-      "DebugActionIndex": 355
->>>>>>> Stashed changes
     }
   ],
   "FileSignatures": [
@@ -27407,7 +25223,6 @@
       "File": "Library/Bee/1900b0aE-inputdata.json"
     },
     {
-<<<<<<< Updated upstream
       "File": "Library/PackageCache/com.unity.ai.navigation@1.1.5/Editor/ConversionSystem/csc.rsp"
     },
     {
@@ -27426,8 +25241,6 @@
       "File": "Library/PackageCache/com.unity.collab-proxy@2.2.0/Editor/PlasticSCM/Toolbar/csc.rsp"
     },
     {
-=======
->>>>>>> Stashed changes
       "File": "Library/PackageCache/com.unity.editorcoroutines@1.0.0/Editor/csc.rsp"
     },
     {
@@ -27545,11 +25358,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 6,
-<<<<<<< Updated upstream
           "ScriptAssembliesAndTypeDB": 408
-=======
-          "ScriptAssembliesAndTypeDB": 355
->>>>>>> Stashed changes
         }
 ,  "DefaultNodes": [
     0

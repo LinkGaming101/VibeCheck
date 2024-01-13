@@ -28,11 +28,20 @@ public class uiScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (volumeBGM != null && volumeVibeCheck != null)
+        if (SceneManager.GetActiveScene().name != "Main_Menu")
+        {
+            volumeBGM.value = PlayerPrefs.GetFloat("BGM_Volume", volumeBGM.value);
+            volumeVibeCheck.value = PlayerPrefs.GetFloat("VC_Volume", volumeVibeCheck.value);
+            ddResolution.value = PlayerPrefs.GetInt("ResolutionOption", ddResolution.value);
+        }
+        if (volumeBGM != null && volumeVibeCheck != null && ddResolution != null)
         { 
             onBGMChange();
             onVCChange();
+            changeResolution();
         }
+
+        //player prefs to save volume and resolution
     }
 
     // Update is called once per frame
@@ -64,6 +73,8 @@ public class uiScript : MonoBehaviour
         //updates the volume textbox for BGM
         volumeBGMString.text = "BGM: " + Mathf.FloorToInt((volumeBGM.value * 100)).ToString();
 
+        //saves to player prefs
+        PlayerPrefs.SetFloat("BGM_Volume", volumeBGM.value);
         //updates BGM volume here
     }
 
@@ -72,6 +83,8 @@ public class uiScript : MonoBehaviour
         //updates the volume textbox for VC
         volumeVCString.text = "VC: " + Mathf.FloorToInt((volumeVibeCheck.value * 100)).ToString();
 
+        //saves to player prefs
+        PlayerPrefs.SetFloat("VC_Volume", volumeVibeCheck.value);
         //updates VC volume here
     }
 
@@ -82,6 +95,9 @@ public class uiScript : MonoBehaviour
 
         int x = int.Parse(breakdown[0]);
         int y = int.Parse(breakdown[1]);
+
+        PlayerPrefs.SetInt("ResolutionOption", ddResolution.value);
+
 #if UNITY_EDITOR
         Debug.Log(breakdown[0]);
         Debug.Log(breakdown[1]);

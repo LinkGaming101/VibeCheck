@@ -1930,16 +1930,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be3d5c2edada274ba1df399db4b3fd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Test_Scene
+  nextScene: Dialogue_Scene
   resumeGame: 1
   panel: {fileID: 748264535}
   menuBox: {fileID: 1533087459}
-  butttonPause: {fileID: 0}
   volumeBGM: {fileID: 625658969}
   volumeBGMString: {fileID: 625658967}
   volumeVibeCheck: {fileID: 625658970}
   volumeVCString: {fileID: 625658968}
   ddResolution: {fileID: 1458475801}
+  showPause: 0
 --- !u!4 &1367438726
 Transform:
   m_ObjectHideFlags: 0

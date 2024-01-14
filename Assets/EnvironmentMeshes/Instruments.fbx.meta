@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c5cdb5c68c9bc3c4a8c6eb6cd88ff518
+guid: c34739d55a1b1714cb96372a190ccfdd
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,92 +8,92 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Base
-    second: {fileID: 2100000, guid: b328a9b76daf57c4393d5d52d206854e, type: 2}
+    second: {fileID: 2100000, guid: 30232de29d562884995579d1ee260b35, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: BaseDrumMetal
-    second: {fileID: 2100000, guid: f50be7cebbf8369468a557d2e6c59e54, type: 2}
+    second: {fileID: 2100000, guid: 20fa11fd20145da4ebc85242c046d2dd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Beams
-    second: {fileID: 2100000, guid: c391eb3be63ca55429daaebd99468bcc, type: 2}
+    second: {fileID: 2100000, guid: 1787b520940335a4f889280e257cafea, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Buttons1
-    second: {fileID: 2100000, guid: 30d50b57f0993b54f9331eaaa6bb9ca9, type: 2}
+    second: {fileID: 2100000, guid: c8cd1ac805a9f8f4c9ebecc9fd98d08c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Buttons2
-    second: {fileID: 2100000, guid: 39268393c508f1a4cbb6986a04c11b7f, type: 2}
+    second: {fileID: 2100000, guid: 7702d1816783163419c357d94acd928c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Buttons3
-    second: {fileID: 2100000, guid: d8743ec4c74256d4490bb8bdce024f9e, type: 2}
+    second: {fileID: 2100000, guid: 28c2d20d3b477254b978bc4158614281, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Buttons4
-    second: {fileID: 2100000, guid: 662dd66c24b157a438c52d29881b1797, type: 2}
+    second: {fileID: 2100000, guid: fd7b0282bedcb024d8f1cf5cd8f24f8f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Doors
-    second: {fileID: 2100000, guid: 9b12067590ca5d9429c2abbadd76820a, type: 2}
+    second: {fileID: 2100000, guid: c08e3b72b3848a0428bfefcb1fa60c49, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: DrumColor
-    second: {fileID: 2100000, guid: 50c301e20c0a85040997b19c1a9ef156, type: 2}
+    second: {fileID: 2100000, guid: 063bccb2f9741ff418563ddafb16b107, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: DrumMetalGrommit
-    second: {fileID: 2100000, guid: f7a196e31aba23e4db8d73e40e46e095, type: 2}
+    second: {fileID: 2100000, guid: ef33e6a9aa3335745bdb27cae2caa9ed, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: DrumMetalPole
-    second: {fileID: 2100000, guid: 35843ee6ec104cc4ca1e379e6d2cb466, type: 2}
+    second: {fileID: 2100000, guid: 5c279f81795fb294c80c228772beb8ae, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: DrumPad
-    second: {fileID: 2100000, guid: 1dfa3d328d7d2584799118536ca9147a, type: 2}
+    second: {fileID: 2100000, guid: a0b9e94931a2f6c40af4593b8527f541, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Floor
-    second: {fileID: 2100000, guid: 507ec591f5f41fd49ba6d525724a18cf, type: 2}
+    second: {fileID: 2100000, guid: de8ff000321162f4ba88f7403004a1d8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: KeytarBase
-    second: {fileID: 2100000, guid: e0cd98e65314de54098caad3d791f8ec, type: 2}
+    second: {fileID: 2100000, guid: 16bc692b73dc79244950bca3039e4c5f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: KeytarShadow
-    second: {fileID: 2100000, guid: 15d68a70a7b7bb642bb3cbc65cdaa21c, type: 2}
+    second: {fileID: 2100000, guid: 8f9b4b47972f5964b9055150441c99e0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Keytar_ModelDecal-01
-    second: {fileID: 2100000, guid: 9479b8df35f4197478acca49550b8557, type: 2}
+    second: {fileID: 2100000, guid: 4c9cdc7a4538eb84c8bdc435dead6bf8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Trim
-    second: {fileID: 2100000, guid: 90b8118f07a6b7d44949ab429b79cba3, type: 2}
+    second: {fileID: 2100000, guid: 395e29d7471c0584e80851175f4bfd78, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: VibeCheck_Decal-01-01
-    second: {fileID: 2100000, guid: 509c10c218201a74f80afa8128d7dae8, type: 2}
+    second: {fileID: 2100000, guid: 01771f87af93f5d479b8511607567d0c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

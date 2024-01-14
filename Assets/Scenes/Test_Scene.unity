@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 10991421}
   - component: {fileID: 10991423}
   - component: {fileID: 10991422}
+  - component: {fileID: 10991424}
   m_Layer: 0
   m_Name: FloorTile_V2 (5)
   m_TagString: Untagged
@@ -207,6 +208,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10991420}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &10991424
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10991420}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &29481177
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,6 +506,7 @@ GameObject:
   - component: {fileID: 48418335}
   - component: {fileID: 48418337}
   - component: {fileID: 48418336}
+  - component: {fileID: 48418338}
   m_Layer: 0
   m_Name: FloorTile_V2 (21)
   m_TagString: Untagged
@@ -557,6 +580,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48418334}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &48418338
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48418334}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &58684723
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +696,7 @@ GameObject:
   - component: {fileID: 67248001}
   - component: {fileID: 67248003}
   - component: {fileID: 67248002}
+  - component: {fileID: 67248004}
   m_Layer: 0
   m_Name: FloorTile_V2 (33)
   m_TagString: Untagged
@@ -725,6 +770,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67248000}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &67248004
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67248000}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &86916703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1487,6 +1553,7 @@ GameObject:
   - component: {fileID: 164699950}
   - component: {fileID: 164699952}
   - component: {fileID: 164699951}
+  - component: {fileID: 164699953}
   m_Layer: 0
   m_Name: FloorTile_V2 (9)
   m_TagString: Untagged
@@ -1560,6 +1627,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164699949}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &164699953
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164699949}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &170212731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,6 +1659,7 @@ GameObject:
   - component: {fileID: 170212732}
   - component: {fileID: 170212734}
   - component: {fileID: 170212733}
+  - component: {fileID: 170212735}
   m_Layer: 0
   m_Name: FloorTile_V2 (2)
   m_TagString: Untagged
@@ -1644,6 +1733,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170212731}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &170212735
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170212731}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &190392815
 GameObject:
   m_ObjectHideFlags: 0
@@ -3830,6 +3940,7 @@ GameObject:
   - component: {fileID: 435893629}
   - component: {fileID: 435893631}
   - component: {fileID: 435893630}
+  - component: {fileID: 435893632}
   m_Layer: 0
   m_Name: FloorTile_V2 (24)
   m_TagString: Untagged
@@ -3903,6 +4014,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435893628}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &435893632
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435893628}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &489826733
 GameObject:
   m_ObjectHideFlags: 0
@@ -3914,6 +4046,7 @@ GameObject:
   - component: {fileID: 489826734}
   - component: {fileID: 489826736}
   - component: {fileID: 489826735}
+  - component: {fileID: 489826737}
   m_Layer: 0
   m_Name: FloorTile_V2 (3)
   m_TagString: Untagged
@@ -3987,6 +4120,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489826733}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &489826737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489826733}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &514689915
 GameObject:
   m_ObjectHideFlags: 0
@@ -4164,6 +4318,7 @@ GameObject:
   - component: {fileID: 538010821}
   - component: {fileID: 538010823}
   - component: {fileID: 538010822}
+  - component: {fileID: 538010824}
   m_Layer: 0
   m_Name: FloorTile_V2 (13)
   m_TagString: Untagged
@@ -4237,6 +4392,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538010820}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &538010824
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538010820}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &538660116
 GameObject:
   m_ObjectHideFlags: 0
@@ -4422,6 +4598,7 @@ GameObject:
   - component: {fileID: 560430794}
   - component: {fileID: 560430796}
   - component: {fileID: 560430795}
+  - component: {fileID: 560430797}
   m_Layer: 0
   m_Name: FloorTile_V2_2SideCut (2)
   m_TagString: Untagged
@@ -4495,6 +4672,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560430793}
   m_Mesh: {fileID: -5665033782171272488, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &560430797
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560430793}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.8125033, y: 3.149764, z: 2.812499}
+  m_Center: {x: -0.09374809, y: -1.4251082, z: 0.09374994}
 --- !u!1 &565796799
 GameObject:
   m_ObjectHideFlags: 0
@@ -4506,6 +4704,7 @@ GameObject:
   - component: {fileID: 565796800}
   - component: {fileID: 565796802}
   - component: {fileID: 565796801}
+  - component: {fileID: 565796803}
   m_Layer: 0
   m_Name: FloorTile_V2 (10)
   m_TagString: Untagged
@@ -4579,6 +4778,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565796799}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &565796803
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565796799}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &565925561
 GameObject:
   m_ObjectHideFlags: 0
@@ -4590,6 +4810,7 @@ GameObject:
   - component: {fileID: 565925562}
   - component: {fileID: 565925564}
   - component: {fileID: 565925563}
+  - component: {fileID: 565925565}
   m_Layer: 0
   m_Name: FloorTile_V2 (27)
   m_TagString: Untagged
@@ -4663,6 +4884,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565925561}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &565925565
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565925561}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &574077185
 GameObject:
   m_ObjectHideFlags: 0
@@ -4674,6 +4916,7 @@ GameObject:
   - component: {fileID: 574077186}
   - component: {fileID: 574077188}
   - component: {fileID: 574077187}
+  - component: {fileID: 574077189}
   m_Layer: 0
   m_Name: FloorTile_V2 (35)
   m_TagString: Untagged
@@ -4747,6 +4990,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574077185}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &574077189
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574077185}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &602781940
 GameObject:
   m_ObjectHideFlags: 0
@@ -5008,6 +5272,7 @@ GameObject:
   - component: {fileID: 637371710}
   - component: {fileID: 637371712}
   - component: {fileID: 637371711}
+  - component: {fileID: 637371713}
   m_Layer: 0
   m_Name: FloorTile_V2 (28)
   m_TagString: Untagged
@@ -5081,6 +5346,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637371709}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &637371713
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637371709}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &640203343
 GameObject:
   m_ObjectHideFlags: 0
@@ -5685,6 +5971,7 @@ GameObject:
   - component: {fileID: 706613485}
   - component: {fileID: 706613487}
   - component: {fileID: 706613486}
+  - component: {fileID: 706613488}
   m_Layer: 0
   m_Name: FloorTile_V2_2SideCut (1)
   m_TagString: Untagged
@@ -5758,6 +6045,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706613484}
   m_Mesh: {fileID: -5665033782171272488, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &706613488
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706613484}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.8125033, y: 3.149764, z: 2.812499}
+  m_Center: {x: -0.09374833, y: -1.4251082, z: 0.09375042}
 --- !u!1 &707090327
 GameObject:
   m_ObjectHideFlags: 0
@@ -5936,6 +6244,7 @@ GameObject:
   - component: {fileID: 716977546}
   - component: {fileID: 716977548}
   - component: {fileID: 716977547}
+  - component: {fileID: 716977549}
   m_Layer: 0
   m_Name: FloorTile_V2 (7)
   m_TagString: Untagged
@@ -6009,6 +6318,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 716977545}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &716977549
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716977545}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &746214137
 GameObject:
   m_ObjectHideFlags: 0
@@ -6020,6 +6350,7 @@ GameObject:
   - component: {fileID: 746214138}
   - component: {fileID: 746214140}
   - component: {fileID: 746214139}
+  - component: {fileID: 746214141}
   m_Layer: 0
   m_Name: FloorTile_V2 (22)
   m_TagString: Untagged
@@ -6093,6 +6424,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 746214137}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &746214141
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746214137}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &751741914
 GameObject:
   m_ObjectHideFlags: 0
@@ -6237,6 +6589,7 @@ GameObject:
   - component: {fileID: 759850341}
   - component: {fileID: 759850343}
   - component: {fileID: 759850342}
+  - component: {fileID: 759850344}
   m_Layer: 0
   m_Name: FloorTile_V2 (8)
   m_TagString: Untagged
@@ -6310,6 +6663,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759850340}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &759850344
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759850340}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &764713636
 GameObject:
   m_ObjectHideFlags: 0
@@ -6572,6 +6946,7 @@ GameObject:
   - component: {fileID: 785334361}
   - component: {fileID: 785334363}
   - component: {fileID: 785334362}
+  - component: {fileID: 785334364}
   m_Layer: 0
   m_Name: FloorTile_V2 (38)
   m_TagString: Untagged
@@ -6645,6 +7020,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 785334360}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &785334364
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785334360}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &787781735
 GameObject:
   m_ObjectHideFlags: 0
@@ -6902,6 +7298,7 @@ GameObject:
   - component: {fileID: 810363082}
   - component: {fileID: 810363084}
   - component: {fileID: 810363083}
+  - component: {fileID: 810363085}
   m_Layer: 0
   m_Name: FloorTile_V2 (17)
   m_TagString: Untagged
@@ -6975,6 +7372,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810363081}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &810363085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810363081}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &811650646
 GameObject:
   m_ObjectHideFlags: 0
@@ -7404,6 +7822,7 @@ GameObject:
   - component: {fileID: 873659785}
   - component: {fileID: 873659787}
   - component: {fileID: 873659786}
+  - component: {fileID: 873659788}
   m_Layer: 0
   m_Name: FloorTile_V2 (30)
   m_TagString: Untagged
@@ -7477,6 +7896,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873659784}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &873659788
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873659784}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &874183521
 GameObject:
   m_ObjectHideFlags: 0
@@ -7908,6 +8348,7 @@ GameObject:
   - component: {fileID: 941824722}
   - component: {fileID: 941824724}
   - component: {fileID: 941824723}
+  - component: {fileID: 941824725}
   m_Layer: 0
   m_Name: FloorTile_V2 (36)
   m_TagString: Untagged
@@ -7981,6 +8422,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941824721}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &941824725
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941824721}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -8120,6 +8582,7 @@ GameObject:
   - component: {fileID: 986242865}
   - component: {fileID: 986242867}
   - component: {fileID: 986242866}
+  - component: {fileID: 986242868}
   m_Layer: 0
   m_Name: FloorTile_V2 (6)
   m_TagString: Untagged
@@ -8193,6 +8656,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986242864}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &986242868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986242864}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &993844708
 GameObject:
   m_ObjectHideFlags: 0
@@ -9106,6 +9590,7 @@ GameObject:
   - component: {fileID: 1049243047}
   - component: {fileID: 1049243049}
   - component: {fileID: 1049243048}
+  - component: {fileID: 1049243050}
   m_Layer: 0
   m_Name: FloorTile_V2 (14)
   m_TagString: Untagged
@@ -9179,6 +9664,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049243046}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1049243050
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049243046}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1052259139
 GameObject:
   m_ObjectHideFlags: 0
@@ -9273,6 +9779,7 @@ GameObject:
   - component: {fileID: 1066201030}
   - component: {fileID: 1066201032}
   - component: {fileID: 1066201031}
+  - component: {fileID: 1066201033}
   m_Layer: 0
   m_Name: FloorTile_V2 (1)
   m_TagString: Untagged
@@ -9346,6 +9853,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066201029}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1066201033
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066201029}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1001 &1066853244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9570,6 +10098,7 @@ GameObject:
   - component: {fileID: 1087654937}
   - component: {fileID: 1087654939}
   - component: {fileID: 1087654938}
+  - component: {fileID: 1087654940}
   m_Layer: 0
   m_Name: FloorTile_V2 (15)
   m_TagString: Untagged
@@ -9643,6 +10172,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087654936}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1087654940
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087654936}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1089446968
 GameObject:
   m_ObjectHideFlags: 0
@@ -9738,6 +10288,7 @@ GameObject:
   - component: {fileID: 1091814343}
   - component: {fileID: 1091814345}
   - component: {fileID: 1091814344}
+  - component: {fileID: 1091814346}
   m_Layer: 0
   m_Name: FloorTile_V2 (11)
   m_TagString: Untagged
@@ -9811,6 +10362,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091814342}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1091814346
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091814342}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1104309633
 GameObject:
   m_ObjectHideFlags: 0
@@ -9905,6 +10477,7 @@ GameObject:
   - component: {fileID: 1111966745}
   - component: {fileID: 1111966747}
   - component: {fileID: 1111966746}
+  - component: {fileID: 1111966748}
   m_Layer: 0
   m_Name: FloorTile_V2 (4)
   m_TagString: Untagged
@@ -9978,6 +10551,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111966744}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1111966748
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111966744}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1116001026
 GameObject:
   m_ObjectHideFlags: 0
@@ -10075,6 +10669,7 @@ GameObject:
   - component: {fileID: 1118470957}
   - component: {fileID: 1118470959}
   - component: {fileID: 1118470958}
+  - component: {fileID: 1118470960}
   m_Layer: 0
   m_Name: FloorTile_V2 (31)
   m_TagString: Untagged
@@ -10148,6 +10743,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1118470956}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1118470960
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118470956}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1120018180
 GameObject:
   m_ObjectHideFlags: 0
@@ -11164,6 +11780,7 @@ GameObject:
   - component: {fileID: 1227935203}
   - component: {fileID: 1227935205}
   - component: {fileID: 1227935204}
+  - component: {fileID: 1227935206}
   m_Layer: 0
   m_Name: FloorTile_V2 (37)
   m_TagString: Untagged
@@ -11237,6 +11854,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227935202}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1227935206
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227935202}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1234917084
 GameObject:
   m_ObjectHideFlags: 0
@@ -11853,6 +12491,7 @@ GameObject:
   - component: {fileID: 1304267898}
   - component: {fileID: 1304267900}
   - component: {fileID: 1304267899}
+  - component: {fileID: 1304267901}
   m_Layer: 0
   m_Name: FloorTile_V2 (29)
   m_TagString: Untagged
@@ -11926,6 +12565,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304267897}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1304267901
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304267897}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1305704847
 GameObject:
   m_ObjectHideFlags: 0
@@ -12789,6 +13449,7 @@ GameObject:
   - component: {fileID: 1478573191}
   - component: {fileID: 1478573193}
   - component: {fileID: 1478573192}
+  - component: {fileID: 1478573194}
   m_Layer: 0
   m_Name: FloorTile_V2 (26)
   m_TagString: Untagged
@@ -12862,6 +13523,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478573190}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1478573194
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478573190}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1526363269
 GameObject:
   m_ObjectHideFlags: 0
@@ -14693,6 +15375,7 @@ GameObject:
   - component: {fileID: 1671147784}
   - component: {fileID: 1671147786}
   - component: {fileID: 1671147785}
+  - component: {fileID: 1671147787}
   m_Layer: 0
   m_Name: FloorTile_V2 (16)
   m_TagString: Untagged
@@ -14766,6 +15449,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671147783}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1671147787
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671147783}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1691249924
 GameObject:
   m_ObjectHideFlags: 0
@@ -14944,6 +15648,7 @@ GameObject:
   - component: {fileID: 1694904961}
   - component: {fileID: 1694904963}
   - component: {fileID: 1694904962}
+  - component: {fileID: 1694904964}
   m_Layer: 0
   m_Name: FloorTile_V2 (25)
   m_TagString: Untagged
@@ -15017,6 +15722,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1694904960}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1694904964
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694904960}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1701643307
 GameObject:
   m_ObjectHideFlags: 0
@@ -15028,6 +15754,7 @@ GameObject:
   - component: {fileID: 1701643308}
   - component: {fileID: 1701643310}
   - component: {fileID: 1701643309}
+  - component: {fileID: 1701643311}
   m_Layer: 0
   m_Name: FloorTile_V2 (23)
   m_TagString: Untagged
@@ -15101,6 +15828,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701643307}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1701643311
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701643307}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1737886209
 GameObject:
   m_ObjectHideFlags: 0
@@ -15195,6 +15943,7 @@ GameObject:
   - component: {fileID: 1755767550}
   - component: {fileID: 1755767552}
   - component: {fileID: 1755767551}
+  - component: {fileID: 1755767553}
   m_Layer: 0
   m_Name: FloorTile_V2 (32)
   m_TagString: Untagged
@@ -15268,6 +16017,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755767549}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1755767553
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755767549}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1779518234
 GameObject:
   m_ObjectHideFlags: 0
@@ -15953,6 +16723,7 @@ GameObject:
   - component: {fileID: 1822336194}
   - component: {fileID: 1822336196}
   - component: {fileID: 1822336195}
+  - component: {fileID: 1822336197}
   m_Layer: 0
   m_Name: FloorTile_V2 (19)
   m_TagString: Untagged
@@ -16026,6 +16797,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822336193}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1822336197
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822336193}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1825478948
 GameObject:
   m_ObjectHideFlags: 0
@@ -16371,6 +17163,7 @@ GameObject:
   - component: {fileID: 1860223633}
   - component: {fileID: 1860223635}
   - component: {fileID: 1860223634}
+  - component: {fileID: 1860223636}
   m_Layer: 0
   m_Name: FloorTile_V2 (34)
   m_TagString: Untagged
@@ -16444,6 +17237,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860223632}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1860223636
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860223632}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1868577733
 GameObject:
   m_ObjectHideFlags: 0
@@ -16789,6 +17603,7 @@ GameObject:
   - component: {fileID: 1895858689}
   - component: {fileID: 1895858691}
   - component: {fileID: 1895858690}
+  - component: {fileID: 1895858692}
   m_Layer: 0
   m_Name: FloorTile_V2 (20)
   m_TagString: Untagged
@@ -16862,6 +17677,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895858688}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1895858692
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895858688}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1896866496
 GameObject:
   m_ObjectHideFlags: 0
@@ -17040,6 +17876,7 @@ GameObject:
   - component: {fileID: 1924845745}
   - component: {fileID: 1924845747}
   - component: {fileID: 1924845746}
+  - component: {fileID: 1924845748}
   m_Layer: 0
   m_Name: FloorTile_V2 (12)
   m_TagString: Untagged
@@ -17113,6 +17950,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924845744}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &1924845748
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924845744}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &1943519461
 GameObject:
   m_ObjectHideFlags: 0
@@ -17773,6 +18631,7 @@ GameObject:
   - component: {fileID: 2085358828}
   - component: {fileID: 2085358830}
   - component: {fileID: 2085358829}
+  - component: {fileID: 2085358831}
   m_Layer: 0
   m_Name: FloorTile_V2 (18)
   m_TagString: Untagged
@@ -17846,6 +18705,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085358827}
   m_Mesh: {fileID: 8089761906770432805, guid: fa189b5f4e700594caef6d6b2b8119a7, type: 3}
+--- !u!65 &2085358831
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085358827}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.149764, z: 3}
+  m_Center: {x: 0, y: -1.4251082, z: 0}
 --- !u!1 &2085624304
 GameObject:
   m_ObjectHideFlags: 0

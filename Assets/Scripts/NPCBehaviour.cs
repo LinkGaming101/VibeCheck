@@ -27,6 +27,7 @@ public class NPCBehaviour : MonoBehaviour
 
     public string fightScene;
 
+    public GameObject pauseButton;
     void Start()
     {
         
@@ -42,7 +43,7 @@ public class NPCBehaviour : MonoBehaviour
             {
                 panelDialogue.SetActive(true);
                 panelBox.SetActive(true);
-
+                pauseButton.SetActive(false);
                 if (Input.GetKeyDown(dialogueKey))
                 {
                     nextLine();
@@ -52,6 +53,7 @@ public class NPCBehaviour : MonoBehaviour
             {
                 panelDialogue.SetActive(false);
                 panelBox.SetActive(false);
+                pauseButton.SetActive(true);
                 pcScript = null;
             }
         }

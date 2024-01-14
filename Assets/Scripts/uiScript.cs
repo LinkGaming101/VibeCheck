@@ -27,6 +27,9 @@ public class uiScript : MonoBehaviour
 
     public GameObject dialogueBox;
 
+    public GameObject pauseButton;
+
+    public GameObject howToPlay;
     // Start is called before the first frame update
     void Start()
     {
@@ -115,6 +118,7 @@ public class uiScript : MonoBehaviour
             menuBox.SetActive(true);
 
             Time.timeScale = 0;
+            pauseButton.SetActive(false);
             resumeGame = false;
         }
 
@@ -122,9 +126,20 @@ public class uiScript : MonoBehaviour
         {
             panel.SetActive(false);
             menuBox.SetActive(false);
+            pauseButton.SetActive(true);
 
             Time.timeScale = 1;
             resumeGame = true;
         }
+    }
+
+    public void showHowToPlay()
+    {
+        howToPlay.SetActive(true);
+    }
+
+    public void hideHowToPlay()
+    {
+        howToPlay.SetActive(false);
     }
 }

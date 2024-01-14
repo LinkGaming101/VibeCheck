@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class NPCBehaviour : MonoBehaviour
 {
@@ -23,6 +24,8 @@ public class NPCBehaviour : MonoBehaviour
     public TextMeshProUGUI playerQuestion;
     public TextMeshProUGUI npcAnswer;
     public List<string> npcDialogue = new List<string>();
+
+    public string fightScene;
 
     void Start()
     {
@@ -117,6 +120,7 @@ public class NPCBehaviour : MonoBehaviour
         else
         {
             Debug.Log("Start fight");
+            SceneManager.LoadScene(fightScene);
             //start fight gameplay here
         }
     }

@@ -940,6 +940,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: resume
       objectReference: {fileID: 0}
+    - target: {fileID: 4585053148556712216, guid: 08a7359e266dcdf419896136a3e7b8a1, type: 3}
+      propertyPath: m_margin.z
+      value: -708.77234
+      objectReference: {fileID: 0}
     - target: {fileID: 4681115464379331113, guid: 08a7359e266dcdf419896136a3e7b8a1, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 733
@@ -975,14 +979,6 @@ PrefabInstance:
     - target: {fileID: 5696712468471491941, guid: 08a7359e266dcdf419896136a3e7b8a1, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: onVCChange
-      objectReference: {fileID: 0}
-    - target: {fileID: 7157339421449418640, guid: 08a7359e266dcdf419896136a3e7b8a1, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 733
-      objectReference: {fileID: 0}
-    - target: {fileID: 7157339421449418640, guid: 08a7359e266dcdf419896136a3e7b8a1, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 54.20999
       objectReference: {fileID: 0}
     - target: {fileID: 7939469563079654647, guid: 08a7359e266dcdf419896136a3e7b8a1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1940,6 +1936,7 @@ MonoBehaviour:
   volumeVCString: {fileID: 625658968}
   ddResolution: {fileID: 1458475801}
   showPause: 0
+  dialogueBox: {fileID: 0}
 --- !u!4 &1367438726
 Transform:
   m_ObjectHideFlags: 0

@@ -83,7 +83,7 @@ public class uiScript : MonoBehaviour
     public void onVCChange()
     {
         //updates the volume textbox for VC
-        volumeVCString.text = "VC: " + Mathf.FloorToInt((volumeVibeCheck.value * 100)).ToString();
+        volumeVCString.text = "Rhythm: " + Mathf.FloorToInt((volumeVibeCheck.value * 100)).ToString();
 
         //saves to player prefs
         PlayerPrefs.SetFloat("VC_Volume", volumeVibeCheck.value);

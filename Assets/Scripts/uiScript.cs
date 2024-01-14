@@ -25,6 +25,8 @@ public class uiScript : MonoBehaviour
 
     public KeyCode showPause;
 
+    public GameObject dialogueBox;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,7 +49,7 @@ public class uiScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(showPause))
+        if (Input.GetKeyDown(showPause) && !dialogueBox.activeInHierarchy)
         {
             resume();
         }

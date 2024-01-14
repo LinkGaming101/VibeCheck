@@ -114,5 +114,10 @@ public class NPCBehaviour : MonoBehaviour
             dialogueOption++;
 
         }
+        else
+        {
+            Debug.Log("Start fight");
+            //start fight gameplay here
+        }
     }
 }

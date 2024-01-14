@@ -527,6 +527,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2469205439639592741, guid: 6b983089fe77b12418768892ef8a329e, type: 3}
+      propertyPath: playerDialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469205439639592741, guid: 6b983089fe77b12418768892ef8a329e, type: 3}
+      propertyPath: playerDialogue.Array.data[0]
+      value: Hello, my name is [PC Name], what is yous?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469205439639592741, guid: 6b983089fe77b12418768892ef8a329e, type: 3}
+      propertyPath: playerDialogue.Array.data[1]
+      value: Nice to meet you [NPC Name], what instrument do you like to play?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469205439639592741, guid: 6b983089fe77b12418768892ef8a329e, type: 3}
+      propertyPath: playerDialogue.Array.data[2]
+      value: I need [Instrument] in my band, tell me something about you?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469205439639592741, guid: 6b983089fe77b12418768892ef8a329e, type: 3}
+      propertyPath: playerDialogue.Array.data[3]
+      value: Sounds intersting, let's fight
+      objectReference: {fileID: 0}
     - target: {fileID: 8271700636977987324, guid: 6b983089fe77b12418768892ef8a329e, type: 3}
       propertyPath: m_Name
       value: MainChar_TPose
@@ -576,6 +596,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b983089fe77b12418768892ef8a329e, type: 3}
+--- !u!114 &1405087217 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2469205439639592741, guid: 6b983089fe77b12418768892ef8a329e, type: 3}
+  m_PrefabInstance: {fileID: 1405087216}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12499a0a575f9de4c8ee3694aab6db29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1561070051
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,21 +782,40 @@ PrefabInstance:
       objectReference: {fileID: 856298180603283470}
     - target: {fileID: 8759070080263489909, guid: c2c67339c406a3b4fa211e30c4bbcf29, type: 3}
       propertyPath: npcDialogue.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8759070080263489909, guid: c2c67339c406a3b4fa211e30c4bbcf29, type: 3}
       propertyPath: npcDialogue.Array.data[0]
-      value: Hey There
+      value: My name is [NPC Name]
       objectReference: {fileID: 0}
     - target: {fileID: 8759070080263489909, guid: c2c67339c406a3b4fa211e30c4bbcf29, type: 3}
       propertyPath: npcDialogue.Array.data[1]
-      value: Good Bye
+      value: I like to play [instrument]
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759070080263489909, guid: c2c67339c406a3b4fa211e30c4bbcf29, type: 3}
+      propertyPath: npcDialogue.Array.data[2]
+      value: I [characteristic]
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759070080263489909, guid: c2c67339c406a3b4fa211e30c4bbcf29, type: 3}
+      propertyPath: npcDialogue.Array.data[3]
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2c67339c406a3b4fa211e30c4bbcf29, type: 3}
+--- !u!114 &1658812792 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8759070080263489909, guid: c2c67339c406a3b4fa211e30c4bbcf29, type: 3}
+  m_PrefabInstance: {fileID: 1658812791}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f35e74736c7174abb3a797d8da6993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1943519461
 GameObject:
   m_ObjectHideFlags: 0
@@ -1812,7 +1862,7 @@ GameObject:
   - component: {fileID: 3220432078391276625}
   - component: {fileID: 6413389216590642644}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: NPCDialogueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2178,7 +2228,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1405087217}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: exitDialogue
         m_Mode: 1
@@ -3619,7 +3669,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1658812792}
         m_TargetAssemblyTypeName: NPCBehaviour, Assembly-CSharp
         m_MethodName: nextLine
         m_Mode: 1
@@ -4274,7 +4324,7 @@ GameObject:
   - component: {fileID: 2450123777216174209}
   - component: {fileID: 856298180603283470}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: PlayerDialogueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4555,6 +4605,7 @@ MonoBehaviour:
   volumeVCString: {fileID: 833883107862564988}
   ddResolution: {fileID: 4049968271710664372}
   showPause: 27
+  dialogueBox: {fileID: 8528631749888460309}
 --- !u!222 &7611793992556784823
 CanvasRenderer:
   m_ObjectHideFlags: 0

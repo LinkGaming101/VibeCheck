@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Lane : MonoBehaviour
 {
@@ -37,10 +38,16 @@ public class Lane : MonoBehaviour
         {
             if (SongManager.GetAudioSourceTime() >= timeStamps[spawnIndex] - SongManager.Instance.noteTime)
             {
-                var note = Instantiate(notePrefab, transform);
-                notes.Add(note.GetComponent<Note>());
-                note.GetComponent<Note>().assignedTime = (float)timeStamps[spawnIndex];
-                spawnIndex++;
+                //if you want to change the chance, change the number below
+                bool toSpawn = Random.value > .99f;
+
+                if (toSpawn)
+                {
+                    var note = Instantiate(notePrefab, transform);
+                    notes.Add(note.GetComponent<Note>());
+                    note.GetComponent<Note>().assignedTime = (float)timeStamps[spawnIndex];
+                    spawnIndex++;
+                }
             }
         }
 

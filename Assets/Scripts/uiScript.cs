@@ -131,7 +131,6 @@ public class uiScript : MonoBehaviour
         {
             panel.SetActive(true);
             menuBox.SetActive(true);
-
             Time.timeScale = 0;
             pauseButton.SetActive(false);
             resumeGame = false;

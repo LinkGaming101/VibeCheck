@@ -7,7 +7,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Instance;
     public AudioSource hitSFX;
     public AudioSource missSFX;
-    public TMPro.TextMeshPro scoreText;
+    public TMPro.TextMeshProUGUI scoreText;
     static int comboScore;
 
     public static Animator anim;
@@ -33,6 +33,7 @@ public class ScoreManager : MonoBehaviour
         comboScore += 1;
         amountDone += 1;
         //if player hits a beat, play cheer animation
+        anim.SetBool("isHappy", false);
         anim.SetBool("isCheering", true);
         Instance.hitSFX.Play();
     }
@@ -42,6 +43,7 @@ public class ScoreManager : MonoBehaviour
         amountDone += 1;
         amountMissed +=1;
         //if player misses a beat, animation shows the "happy" (actually upset) animation 
+        anim.SetBool("isCheering", false);
         anim.SetBool("isHappy", true);
         Instance.missSFX.Play();
     }

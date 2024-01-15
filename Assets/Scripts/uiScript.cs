@@ -18,8 +18,10 @@ public class uiScript : MonoBehaviour
     [Header("Volume Slider")]
     public Slider volumeBGM;
     public TextMeshProUGUI volumeBGMString;
+    public AudioSource asBGM;
     public Slider volumeVibeCheck;
     public TextMeshProUGUI volumeVCString;
+    public AudioSource asVC;
 
     public TMP_Dropdown ddResolution;
 
@@ -30,6 +32,9 @@ public class uiScript : MonoBehaviour
     public GameObject pauseButton;
 
     public GameObject howToPlay;
+
+    public GameObject credits;
+    public GameObject panelCred;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,9 +57,19 @@ public class uiScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(showPause) && !dialogueBox.activeInHierarchy)
+        if (dialogueBox != null)
         {
-            resume();
+            if (Input.GetKeyDown(showPause) && !dialogueBox.activeInHierarchy)
+            {
+                resume();
+            }
+        }
+        else
+        {
+            if (Input.GetKeyDown(showPause))
+            {
+                resume();
+            }
         }
     }
 
@@ -77,7 +92,7 @@ public class uiScript : MonoBehaviour
     {
         //updates the volume textbox for BGM
         volumeBGMString.text = "BGM: " + Mathf.FloorToInt((volumeBGM.value * 100)).ToString();
-
+        asBGM.volume = volumeBGM.value;
         //saves to player prefs
         PlayerPrefs.SetFloat("BGM_Volume", volumeBGM.value);
         //updates BGM volume here
@@ -87,7 +102,7 @@ public class uiScript : MonoBehaviour
     {
         //updates the volume textbox for VC
         volumeVCString.text = "Rhythm: " + Mathf.FloorToInt((volumeVibeCheck.value * 100)).ToString();
-
+        asVC.volume = volumeVibeCheck.value;
         //saves to player prefs
         PlayerPrefs.SetFloat("VC_Volume", volumeVibeCheck.value);
         //updates VC volume here
@@ -141,5 +156,17 @@ public class uiScript : MonoBehaviour
     public void hideHowToPlay()
     {
         howToPlay.SetActive(false);
+    }
+
+    public void showCredits()
+    {
+        credits.SetActive(true);
+        panelCred.SetActive(true);
+    }
+
+    public void hideCredits()
+    {
+        credits.SetActive(false);
+        panelCred.SetActive(false);
     }
 }

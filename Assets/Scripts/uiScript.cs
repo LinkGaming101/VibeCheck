@@ -131,17 +131,25 @@ public class uiScript : MonoBehaviour
         {
             panel.SetActive(true);
             menuBox.SetActive(true);
+
+            if (SceneManager.GetActiveScene().name != "Main_Menu")
+            {
+                pauseButton.SetActive(false);
+            }
             Time.timeScale = 0;
-            pauseButton.SetActive(false);
             resumeGame = false;
+
         }
 
         else if (!resumeGame)
         {
             panel.SetActive(false);
             menuBox.SetActive(false);
-            pauseButton.SetActive(true);
 
+            if (SceneManager.GetActiveScene().name != "Main_Menu")
+            {
+                pauseButton.SetActive(true);
+            }
             Time.timeScale = 1;
             resumeGame = true;
         }

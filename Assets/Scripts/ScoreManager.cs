@@ -27,6 +27,8 @@ public class ScoreManager : MonoBehaviour
 
     public static bool countingStopped;
 
+    public static bool combo;
+
     public TMPro.TextMeshProUGUI winLoseText;
     public GameObject winLosemeu;
     public GameObject panel;
@@ -56,7 +58,7 @@ public class ScoreManager : MonoBehaviour
         comboScore += 1;
         amountDone += 1;
         countingStopped = true;
-
+        combo = true;
         //if player hits a beat, play cheer animation
         anim.SetBool("isHappy", false);
         anim.SetBool("isCheering", true);
@@ -67,6 +69,7 @@ public class ScoreManager : MonoBehaviour
         comboScore = 0;
         amountDone += 1;
         amountMissed +=1;
+        combo = false;
         countingStopped = true;
 
         //if player misses a beat, animation shows the "happy" (actually upset) animation 
@@ -78,7 +81,7 @@ public class ScoreManager : MonoBehaviour
     {
         scoreText.text = comboScore.ToString();
 
-        if (comboScore % 10 == 0 && comboScore > 0)
+        if (comboScore % 10 == 0 && comboScore > 0 && combo == true)
         {
             //play vibe check animation when the player has 10 in a row
             anim.SetBool("isVibeCheck", true);
